@@ -1,0 +1,56 @@
+{
+    "data": {
+        "entries": [
+            {
+                "connection_class": "cloud_push",
+                "data": {},
+                "domain": "ios",
+                "entry_id": "dde574a44983400789fc6e3c4d7463f7",
+                "options": {},
+                "source": "user",
+                "title": "Home Assistant iOS",
+                "version": 1
+            },
+            {
+                "connection_class": "cloud_poll",
+                "data": {
+                    "latitude": -23.63,
+                    "longitude": -46.6322,
+                    "name": "Casa"
+                },
+                "domain": "ipma",
+                "entry_id": "a7fab43ff8f84cb290490ea5f2b50ea0",
+                "options": {},
+                "source": "user",
+                "title": "Casa",
+                "version": 1
+            },
+            {
+                "connection_class": "local_push",
+                "data": {},
+                "domain": "cast",
+                "entry_id": "c4e52e247cf8455ea52e682e5a1e2522",
+                "options": {},
+                "source": "discovery",
+                "title": "Google Cast",
+                "version": 1
+            },
+            {
+                "connection_class": "local_push",
+                "data": {
+                    "broker": "gateway.local",
+                    "discovery": false,
+                    "port": 1883
+                },
+                "domain": "mqtt",
+                "entry_id": "d1b7e605c6e14f77ae2fcf20903fef07",
+                "options": {},
+                "source": "user",
+                "title": "gateway.local",
+                "version": 1
+            }
+        ]
+    },
+    "key": "core.config_entries",
+    "version": 1
+}

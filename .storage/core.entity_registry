@@ -1,0 +1,152 @@
+{
+    "data": {
+        "entities": [
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "media_player.apple_tv_suite_master",
+                "name": null,
+                "platform": "apple_tv",
+                "unique_id": "734d6b3fb4778119bbf7010d94157466f40f860a003f057574e1d066d58b6c3d"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "remote.apple_tv_suite_master",
+                "name": null,
+                "platform": "apple_tv",
+                "unique_id": "734d6b3fb4778119bbf7010d94157466f40f860a003f057574e1d066d58b6c3d"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "person.marcelo",
+                "name": null,
+                "platform": "person",
+                "unique_id": "6eba4badf0f84f89b893fccfb2658e5a"
+            },
+            {
+                "config_entry_id": "a7fab43ff8f84cb290490ea5f2b50ea0",
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "weather.casa",
+                "name": null,
+                "platform": "ipma",
+                "unique_id": "32.6485, -16.9084"
+            },
+            {
+                "config_entry_id": "c4e52e247cf8455ea52e682e5a1e2522",
+                "device_id": "fcef0ca1f80349f58a34b46c25289e75",
+                "disabled_by": null,
+                "entity_id": "media_player.miguel",
+                "name": null,
+                "platform": "cast",
+                "unique_id": "84d4fd1b-0f0d-c952-b179-9ff5a8e0c890"
+            },
+            {
+                "config_entry_id": "c4e52e247cf8455ea52e682e5a1e2522",
+                "device_id": "01b4619f32f64e43877668f658e4e976",
+                "disabled_by": null,
+                "entity_id": "media_player.chromecast",
+                "name": null,
+                "platform": "cast",
+                "unique_id": "034ec20c-c907-69a5-1fab-8c8c06ed38a6"
+            },
+            {
+                "config_entry_id": "c4e52e247cf8455ea52e682e5a1e2522",
+                "device_id": "f97a95024c1c4ae9b955ad1920bf0da8",
+                "disabled_by": null,
+                "entity_id": "media_player.sala",
+                "name": null,
+                "platform": "cast",
+                "unique_id": "50c7c9e7-30be-7982-b9fc-60438f4e5e39"
+            },
+            {
+                "config_entry_id": "c4e52e247cf8455ea52e682e5a1e2522",
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "media_player.sala_e_miguel",
+                "name": null,
+                "platform": "cast",
+                "unique_id": "993f587c-dd55-40f7-ba9e-8ce2131a18be"
+            },
+            {
+                "config_entry_id": "c4e52e247cf8455ea52e682e5a1e2522",
+                "device_id": "f883ce5679d649109157cf9f6ee31e00",
+                "disabled_by": null,
+                "entity_id": "media_player.suite_master",
+                "name": null,
+                "platform": "cast",
+                "unique_id": "0317116a-2d8b-403a-4f71-a99d5578786d"
+            },
+            {
+                "config_entry_id": "c4e52e247cf8455ea52e682e5a1e2522",
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "media_player.festa",
+                "name": null,
+                "platform": "cast",
+                "unique_id": "6cee5930-cd8f-4db9-b730-300475d3fb65"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "media_player.apple_tv_suite_master_2",
+                "name": null,
+                "platform": "apple_tv",
+                "unique_id": "ba753efa2015157bd094d405599223a50af144ea30c22ce5755f88d0aca95845"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "remote.apple_tv_suite_master_2",
+                "name": null,
+                "platform": "apple_tv",
+                "unique_id": "ba753efa2015157bd094d405599223a50af144ea30c22ce5755f88d0aca95845"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "light.cama",
+                "name": null,
+                "platform": "mqtt",
+                "unique_id": "suite_cama"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "light.criado_amanda",
+                "name": null,
+                "platform": "mqtt",
+                "unique_id": "suite_criado_amanda"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "light.criado_marcelo",
+                "name": null,
+                "platform": "mqtt",
+                "unique_id": "suite_criado_marcelo"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "light.tv",
+                "name": null,
+                "platform": "mqtt",
+                "unique_id": "suite_tv"
+            }
+        ]
+    },
+    "key": "core.entity_registry",
+    "version": 1
+}

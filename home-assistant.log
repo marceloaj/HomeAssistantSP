@@ -1,0 +1,8 @@
+2019-03-19 02:30:13 WARNING (MainThread) [homeassistant.helpers.config_validation] Your configuration contains extra keys that the platform does not support.
+Please remove [name].  (See /home/homeassistant/.homeassistant/configuration.yaml, line 89). 
+2019-03-19 02:30:13 WARNING (MainThread) [homeassistant.helpers.config_validation] Your configuration contains extra keys that the platform does not support.
+Please remove [friendly_name], [entity_id]. 
+2019-03-19 02:30:13 WARNING (MainThread) [homeassistant.helpers.config_validation] Your configuration contains extra keys that the platform does not support.
+Please remove [uninique_id]. 
+2019-03-19 02:30:15 ERROR (Thread-21) [homeassistant.components.ios.notify] The notify.ios platform was loaded but no devices exist! Please check the documentation at https://home-assistant.io/ecosystem/ios/notifications/ for more information
+2019-03-19 02:30:34 ERROR (MainThread) [frontend.js.es5.201903051] http://192.168.1.200:8123/frontend_es5/bca2e8c5d80eb79a6e61.chunk.js:201:16653 Uncaught TypeError: Cannot read property 'isOff' of undefined

@@ -1,0 +1,88 @@
+{
+    "data": {
+        "devices": [
+            {
+                "area_id": null,
+                "config_entries": [
+                    "c4e52e247cf8455ea52e682e5a1e2522"
+                ],
+                "connections": [],
+                "hub_device_id": null,
+                "id": "fcef0ca1f80349f58a34b46c25289e75",
+                "identifiers": [
+                    [
+                        "cast",
+                        "84d4fd1b0f0dc952b1799ff5a8e0c890"
+                    ]
+                ],
+                "manufacturer": "Best Buy",
+                "model": "Insignia NS-CSPGASP",
+                "name": "Miguel",
+                "name_by_user": null,
+                "sw_version": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "c4e52e247cf8455ea52e682e5a1e2522"
+                ],
+                "connections": [],
+                "hub_device_id": null,
+                "id": "01b4619f32f64e43877668f658e4e976",
+                "identifiers": [
+                    [
+                        "cast",
+                        "034ec20cc90769a51fab8c8c06ed38a6"
+                    ]
+                ],
+                "manufacturer": "Google Inc.",
+                "model": "Chromecast",
+                "name": "Chromecast",
+                "name_by_user": null,
+                "sw_version": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "c4e52e247cf8455ea52e682e5a1e2522"
+                ],
+                "connections": [],
+                "hub_device_id": null,
+                "id": "f97a95024c1c4ae9b955ad1920bf0da8",
+                "identifiers": [
+                    [
+                        "cast",
+                        "50c7c9e730be7982b9fc60438f4e5e39"
+                    ]
+                ],
+                "manufacturer": "Best Buy",
+                "model": "Insignia NS-CSPGASP2",
+                "name": "Sala",
+                "name_by_user": null,
+                "sw_version": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "c4e52e247cf8455ea52e682e5a1e2522"
+                ],
+                "connections": [],
+                "hub_device_id": null,
+                "id": "f883ce5679d649109157cf9f6ee31e00",
+                "identifiers": [
+                    [
+                        "cast",
+                        "0317116a2d8b403a4f71a99d5578786d"
+                    ]
+                ],
+                "manufacturer": "Best Buy",
+                "model": "Insignia NS-CSPGASP",
+                "name": "Suite Master",
+                "name_by_user": null,
+                "sw_version": null
+            }
+        ]
+    },
+    "key": "core.device_registry",
+    "version": 1
+}

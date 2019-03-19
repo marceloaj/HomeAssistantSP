@@ -1,0 +1,17 @@
+  sala_view:
+    name: Sala
+    view: yes
+    entities:
+      - sensor.temperature
+      - media_player.denon_avr2313
+
+  suite_view:
+    name: Suite
+    view: yes
+    entities:
+       - light.tv
+       - light.cama
+       - light.criado_amanda
+       - light.criado_marcelo
+       - light.geral
+

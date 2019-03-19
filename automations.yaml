@@ -1,0 +1,54 @@
+- id: '1552959475962'
+  alias: Abajur Mesa RF Repeater
+  trigger:
+  - payload: '3893682'
+    platform: mqtt
+    topic: rf-repeater
+  condition: []
+  action:
+  - alias: ''
+    data: {}
+    entity_id: switch.abajur_mesa
+    service: switch.toggle
+- id: '1552960646597'
+  alias: Abajur Apaga 23:45
+  trigger:
+  - at: '23:45'
+    platform: time
+  condition: []
+  action:
+  - alias: ''
+    data: {}
+    service: switch.turn_off
+    entity_id: switch.abajur_mesa
+- id: '1552960832798'
+  alias: Abajur Por do Sol
+  trigger:
+  - event: sunset
+    platform: sun
+  condition: []
+  action:
+  - service: switch.turn_on
+    entity_id: switch.abajur_mesa
+- id: '1552962242125'
+  alias: Teste
+  trigger:
+  - at: '23:45'
+    platform: time
+  condition: []
+  action:
+  - service: switch.toggle
+    entity_id: switch.suite_geral
+- id: '1552969855910'
+  alias: Abajur Buffet Repeater RF
+  trigger:
+  - payload: '3893688'
+    platform: mqtt
+    topic: rf-repeater
+  condition: []
+  action:
+  - service: switch.broadlink_send_packet_192_168_1_150
+    data:
+      packet: 
+      - "1wAeAgoJBQcEBgYOBAQSCwQEBgoHBQwLBQQECQQMBAQGBAQJCgsFBgUHBBIEBQsKBAkGBQQOBg8EIQQEBgQLBAQEBgcODQQFExoLBgYECAYHDAkXBAQECQQECgwFBQQOBAUKBgUJBDAGGgcKGAkZCBoIGwcZGgkWDQQdBR4EHhMNFg0EHgQcFg4EHRYMBB0FHwQeBRsHGhgLBRwGAAEFGwgZCAkaBhoIGgcaCRsXCBkKBxoIGgcaGQgaCQcaCBkZCAkZGQkJGQgZCRgJGgcbGQcJGQkAAQMbCBoGCxcKGAoXDBYKGBoIGgkHGggYChgbBhsHCRgLGBgJCRgaBwsYCBkLGAgYChgaBwoZCgABAR0GGgcKGAoYCRgLFwsWGgcbCAoXChcLFxoHGwcKFwoYGwcLFxsGChcKGAoXChkKFhwHCxYKqjMLBA4IHgUcBQsXCxYMFwoWDBYbBxsKBxcKGQkYGwYaCAkYCRkaCQcZGggJGAoYChcLGAoXGgcKGQoAAQAdBhwHCxcJFwsWDBYLFxsIGQcKFwsXChcbCBoHCRkLFhsHCRgbBwoYCRcLFwoYChgaCAkYCgABAh0EHQcIGQoXChgKFwoYGwYbBwoYCxcLFR0GGggJGAkYGgkJGBoHCxcKFwoXDBcJFxwGChgKAAECHgUbBgsYCRcLFwsWChcdBRsICQABREUEBwsGCgQGEgQLBwQFCwQFBARGBA4EAAXcGggZGQgJGRkJCQ=="
+
