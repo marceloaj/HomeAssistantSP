@@ -1,7 +1,7 @@
 {
     "data": [
         {
-            "last_seen": "2019-03-19T05:30:18.581848+00:00",
+            "last_seen": "2019-03-19T06:00:20.007506+00:00",
             "state": {
                 "attributes": {
                     "friendly_name": "Abajur Por do Sol",
@@ -9,17 +9,17 @@
                     "last_triggered": "2019-03-19T02:01:40.619376+00:00"
                 },
                 "context": {
-                    "id": "8769cd9d693c47cd8ee9e842421b8894",
+                    "id": "a2ca24bc808444abb9e7b429fb77bd05",
                     "user_id": null
                 },
                 "entity_id": "automation.abajur_por_do_sol",
-                "last_changed": "2019-03-19T05:30:15.109185+00:00",
-                "last_updated": "2019-03-19T05:30:15.109185+00:00",
-                "state": "off"
+                "last_changed": "2019-03-19T05:30:18.636253+00:00",
+                "last_updated": "2019-03-19T05:30:18.636253+00:00",
+                "state": "on"
             }
         },
         {
-            "last_seen": "2019-03-19T05:30:18.581848+00:00",
+            "last_seen": "2019-03-19T06:00:20.007506+00:00",
             "state": {
                 "attributes": {
                     "friendly_name": "Cama",
@@ -36,7 +36,7 @@
             }
         },
         {
-            "last_seen": "2019-03-19T05:30:18.581848+00:00",
+            "last_seen": "2019-03-19T06:00:20.007506+00:00",
             "state": {
                 "attributes": {
                     "friendly_name": "Abajur Buffet Repeater RF",
@@ -44,17 +44,17 @@
                     "last_triggered": "2019-03-19T05:00:02.278765+00:00"
                 },
                 "context": {
-                    "id": "ea06711eab8f499ca809c30064b3601c",
+                    "id": "cb9ec51162c8487594a820131fc6c3ea",
                     "user_id": null
                 },
                 "entity_id": "automation.abajur_buffet_repeater_rf",
-                "last_changed": "2019-03-19T05:30:15.108415+00:00",
-                "last_updated": "2019-03-19T05:30:15.108415+00:00",
-                "state": "off"
+                "last_changed": "2019-03-19T05:30:18.654931+00:00",
+                "last_updated": "2019-03-19T05:30:18.654931+00:00",
+                "state": "on"
             }
         },
         {
-            "last_seen": "2019-03-19T05:30:18.581848+00:00",
+            "last_seen": "2019-03-19T06:00:20.007506+00:00",
             "state": {
                 "attributes": {
                     "friendly_name": "Abajur Apaga 23:45",
@@ -62,37 +62,36 @@
                     "last_triggered": null
                 },
                 "context": {
-                    "id": "881c763405654d178c1ce03179e0130c",
+                    "id": "af827be33de2428798de58f95278ce43",
                     "user_id": null
                 },
                 "entity_id": "automation.abajur_apaga_23_45",
-                "last_changed": "2019-03-19T05:30:15.107511+00:00",
-                "last_updated": "2019-03-19T05:30:15.107511+00:00",
-                "state": "off"
+                "last_changed": "2019-03-19T05:30:18.630089+00:00",
+                "last_updated": "2019-03-19T05:30:18.630089+00:00",
+                "state": "on"
             }
         },
         {
-            "last_seen": "2019-03-19T05:30:18.581848+00:00",
+            "last_seen": "2019-03-19T06:00:20.007506+00:00",
             "state": {
                 "attributes": {
                     "editable": true,
                     "friendly_name": "Marcelo",
                     "id": "6eba4badf0f84f89b893fccfb2658e5a",
-                    "source": "person.marcelo",
                     "user_id": "050f489d0a7643d192ac114b2c57986b"
                 },
                 "context": {
-                    "id": "e674fea4e6524d818481521e5a4d187d",
+                    "id": "45de0cc95a384be2b2c226927f8c2095",
                     "user_id": null
                 },
                 "entity_id": "person.marcelo",
                 "last_changed": "2019-03-19T05:30:15.095295+00:00",
-                "last_updated": "2019-03-19T05:30:15.095295+00:00",
+                "last_updated": "2019-03-19T05:30:18.583684+00:00",
                 "state": "unknown"
             }
         },
         {
-            "last_seen": "2019-03-19T05:30:18.581848+00:00",
+            "last_seen": "2019-03-19T06:00:20.007506+00:00",
             "state": {
                 "attributes": {
                     "friendly_name": "Geral",
@@ -109,7 +108,7 @@
             }
         },
         {
-            "last_seen": "2019-03-19T05:30:18.581848+00:00",
+            "last_seen": "2019-03-19T06:00:20.007506+00:00",
             "state": {
                 "attributes": {
                     "friendly_name": "Criado Amanda",
@@ -126,7 +125,7 @@
             }
         },
         {
-            "last_seen": "2019-03-19T05:30:18.581848+00:00",
+            "last_seen": "2019-03-19T06:00:20.007506+00:00",
             "state": {
                 "attributes": {
                     "friendly_name": "TV",
@@ -143,7 +142,7 @@
             }
         },
         {
-            "last_seen": "2019-03-19T05:30:18.581848+00:00",
+            "last_seen": "2019-03-19T06:00:20.007506+00:00",
             "state": {
                 "attributes": {
                     "friendly_name": "Criado Marcelo",
@@ -160,7 +159,7 @@
             }
         },
         {
-            "last_seen": "2019-03-19T05:30:18.581848+00:00",
+            "last_seen": "2019-03-19T06:00:20.007506+00:00",
             "state": {
                 "attributes": {
                     "friendly_name": "Abajur Mesa RF Repeater",
@@ -168,17 +167,17 @@
                     "last_triggered": "2019-03-19T04:41:31.473589+00:00"
                 },
                 "context": {
-                    "id": "8f53a5acab944c0fb0269905394c3883",
+                    "id": "fd9a2e42cea84df8b0b714942ab95edf",
                     "user_id": null
                 },
                 "entity_id": "automation.abajur_mesa_rf_repeater",
-                "last_changed": "2019-03-19T05:30:15.109941+00:00",
-                "last_updated": "2019-03-19T05:30:15.109941+00:00",
-                "state": "off"
+                "last_changed": "2019-03-19T05:30:18.659252+00:00",
+                "last_updated": "2019-03-19T05:30:18.659252+00:00",
+                "state": "on"
             }
         },
         {
-            "last_seen": "2019-03-19T05:30:18.581848+00:00",
+            "last_seen": "2019-03-19T06:00:20.007506+00:00",
             "state": {
                 "attributes": {
                     "friendly_name": "Teste",
@@ -186,13 +185,13 @@
                     "last_triggered": "2019-03-19T02:30:39.214702+00:00"
                 },
                 "context": {
-                    "id": "957a8d6f773e475d90f52a34f54223ec",
+                    "id": "5c25b276e84d48169033a9bc0aadd455",
                     "user_id": null
                 },
                 "entity_id": "automation.teste",
-                "last_changed": "2019-03-19T05:30:15.110672+00:00",
-                "last_updated": "2019-03-19T05:30:15.110672+00:00",
-                "state": "off"
+                "last_changed": "2019-03-19T05:30:18.642646+00:00",
+                "last_updated": "2019-03-19T05:30:18.642646+00:00",
+                "state": "on"
             }
         },
         {
