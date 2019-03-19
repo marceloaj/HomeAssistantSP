@@ -15,3 +15,10 @@
        - light.criado_marcelo
        - light.geral
 
+  varanda_view:
+    name: Varanda
+    view: yes
+    entities:
+      - switch.varanda_persiana_abrir
+      - switch.varanda_persiana_fechar
+
