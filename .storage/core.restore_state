@@ -1,77 +1,7 @@
 {
     "data": [
         {
-            "last_seen": "2019-03-19T06:57:01.768420+00:00",
-            "state": {
-                "attributes": {
-                    "friendly_name": "Abajur Mesa RF Repeater",
-                    "id": "1552959475962",
-                    "last_triggered": "2019-03-19T06:50:22.356675+00:00"
-                },
-                "context": {
-                    "id": "54dd266fd0834cbf8d302e5bcd625412",
-                    "user_id": null
-                },
-                "entity_id": "automation.abajur_mesa_rf_repeater",
-                "last_changed": "2019-03-19T06:56:58.756304+00:00",
-                "last_updated": "2019-03-19T06:56:58.756304+00:00",
-                "state": "off"
-            }
-        },
-        {
-            "last_seen": "2019-03-19T06:57:01.768420+00:00",
-            "state": {
-                "attributes": {
-                    "friendly_name": "Teste",
-                    "id": "1552962242125",
-                    "last_triggered": "2019-03-19T02:30:39.214702+00:00"
-                },
-                "context": {
-                    "id": "52981af8c4f14a46ae2a97bd80361667",
-                    "user_id": null
-                },
-                "entity_id": "automation.teste",
-                "last_changed": "2019-03-19T06:56:58.757095+00:00",
-                "last_updated": "2019-03-19T06:56:58.757095+00:00",
-                "state": "off"
-            }
-        },
-        {
-            "last_seen": "2019-03-19T06:57:01.768420+00:00",
-            "state": {
-                "attributes": {
-                    "friendly_name": "Cama",
-                    "supported_features": 0
-                },
-                "context": {
-                    "id": "9e6384bc28cd48c9bc1e00571f3ef02c",
-                    "user_id": null
-                },
-                "entity_id": "light.cama",
-                "last_changed": "2019-03-19T06:56:58.826370+00:00",
-                "last_updated": "2019-03-19T06:56:58.826370+00:00",
-                "state": "off"
-            }
-        },
-        {
-            "last_seen": "2019-03-19T06:57:01.768420+00:00",
-            "state": {
-                "attributes": {
-                    "friendly_name": "Criado Marcelo",
-                    "supported_features": 0
-                },
-                "context": {
-                    "id": "0d27876f48a7459384f50f1bd6c822ab",
-                    "user_id": null
-                },
-                "entity_id": "light.criado_marcelo",
-                "last_changed": "2019-03-19T06:56:58.863281+00:00",
-                "last_updated": "2019-03-19T06:56:58.863281+00:00",
-                "state": "off"
-            }
-        },
-        {
-            "last_seen": "2019-03-19T06:57:01.768420+00:00",
+            "last_seen": "2019-03-19T13:03:41.424424+00:00",
             "state": {
                 "attributes": {
                     "editable": true,
@@ -81,69 +11,17 @@
                     "user_id": "050f489d0a7643d192ac114b2c57986b"
                 },
                 "context": {
-                    "id": "8452c9d7b0444e318a8165d6493cf7a3",
+                    "id": "ee01ef5d229745ee9ac6c4cd589f6493",
                     "user_id": null
                 },
                 "entity_id": "person.marcelo",
-                "last_changed": "2019-03-19T06:56:58.707160+00:00",
-                "last_updated": "2019-03-19T06:56:58.707160+00:00",
+                "last_changed": "2019-03-19T13:03:37.439944+00:00",
+                "last_updated": "2019-03-19T13:03:37.439944+00:00",
                 "state": "unknown"
             }
         },
         {
-            "last_seen": "2019-03-19T06:57:01.768420+00:00",
-            "state": {
-                "attributes": {
-                    "friendly_name": "Geral",
-                    "supported_features": 0
-                },
-                "context": {
-                    "id": "3de1210c0b004ffea0262226ecaf5763",
-                    "user_id": null
-                },
-                "entity_id": "light.geral",
-                "last_changed": "2019-03-19T06:56:58.848061+00:00",
-                "last_updated": "2019-03-19T06:56:58.848061+00:00",
-                "state": "off"
-            }
-        },
-        {
-            "last_seen": "2019-03-19T06:57:01.768420+00:00",
-            "state": {
-                "attributes": {
-                    "friendly_name": "Abajur Por do Sol",
-                    "id": "1552960832798",
-                    "last_triggered": "2019-03-19T02:01:40.619376+00:00"
-                },
-                "context": {
-                    "id": "8f283ddc4078453e8b7ce239c7d9a2cb",
-                    "user_id": null
-                },
-                "entity_id": "automation.abajur_por_do_sol",
-                "last_changed": "2019-03-19T06:56:58.753542+00:00",
-                "last_updated": "2019-03-19T06:56:58.753542+00:00",
-                "state": "off"
-            }
-        },
-        {
-            "last_seen": "2019-03-19T06:57:01.768420+00:00",
-            "state": {
-                "attributes": {
-                    "friendly_name": "Criado Amanda",
-                    "supported_features": 0
-                },
-                "context": {
-                    "id": "fe433f4695c748d295a77bc138ca0e09",
-                    "user_id": null
-                },
-                "entity_id": "light.criado_amanda",
-                "last_changed": "2019-03-19T06:56:58.810079+00:00",
-                "last_updated": "2019-03-19T06:56:58.810079+00:00",
-                "state": "off"
-            }
-        },
-        {
-            "last_seen": "2019-03-19T06:57:01.768420+00:00",
+            "last_seen": "2019-03-19T13:03:41.424424+00:00",
             "state": {
                 "attributes": {
                     "friendly_name": "Abajur Apaga 23:45",
@@ -151,34 +29,87 @@
                     "last_triggered": null
                 },
                 "context": {
-                    "id": "3f8aaa4d5100421483036faec7122ccb",
+                    "id": "14ed0d5ceaf140a084249f50bf20094f",
                     "user_id": null
                 },
                 "entity_id": "automation.abajur_apaga_23_45",
-                "last_changed": "2019-03-19T06:56:58.755484+00:00",
-                "last_updated": "2019-03-19T06:56:58.755484+00:00",
+                "last_changed": "2019-03-19T13:03:37.444771+00:00",
+                "last_updated": "2019-03-19T13:03:37.444771+00:00",
                 "state": "off"
             }
         },
         {
-            "last_seen": "2019-03-19T06:57:01.768420+00:00",
+            "last_seen": "2019-03-19T13:03:41.424424+00:00",
             "state": {
                 "attributes": {
-                    "friendly_name": "TV",
+                    "friendly_name": "Abajur Mesa RF Repeater",
+                    "id": "1552959475962",
+                    "last_triggered": "2019-03-19T06:50:22.356675+00:00"
+                },
+                "context": {
+                    "id": "b45e532ee219430dbe362aeaadf70bd5",
+                    "user_id": null
+                },
+                "entity_id": "automation.abajur_mesa_rf_repeater",
+                "last_changed": "2019-03-19T13:03:37.442635+00:00",
+                "last_updated": "2019-03-19T13:03:37.442635+00:00",
+                "state": "off"
+            }
+        },
+        {
+            "last_seen": "2019-03-19T13:03:41.424424+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Criado Amanda",
                     "supported_features": 0
                 },
                 "context": {
-                    "id": "3ad69d2796974f9784208984c1044ff8",
+                    "id": "2874e3e5409848e1a66c66caa02d4280",
                     "user_id": null
                 },
-                "entity_id": "light.tv",
-                "last_changed": "2019-03-19T06:56:58.875964+00:00",
-                "last_updated": "2019-03-19T06:56:58.875964+00:00",
+                "entity_id": "light.criado_amanda",
+                "last_changed": "2019-03-19T13:03:37.553369+00:00",
+                "last_updated": "2019-03-19T13:03:37.553369+00:00",
                 "state": "off"
             }
         },
         {
-            "last_seen": "2019-03-19T06:57:01.768420+00:00",
+            "last_seen": "2019-03-19T13:03:41.424424+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Criado Marcelo",
+                    "supported_features": 0
+                },
+                "context": {
+                    "id": "265b616784fd4262a8782ba1d50b46bf",
+                    "user_id": null
+                },
+                "entity_id": "light.criado_marcelo",
+                "last_changed": "2019-03-19T13:03:37.511828+00:00",
+                "last_updated": "2019-03-19T13:03:37.511828+00:00",
+                "state": "off"
+            }
+        },
+        {
+            "last_seen": "2019-03-19T13:03:41.424424+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Teste",
+                    "id": "1552962242125",
+                    "last_triggered": "2019-03-19T02:30:39.214702+00:00"
+                },
+                "context": {
+                    "id": "5fac0898e7c840faa0f64ffeb6f443b0",
+                    "user_id": null
+                },
+                "entity_id": "automation.teste",
+                "last_changed": "2019-03-19T13:03:37.440850+00:00",
+                "last_updated": "2019-03-19T13:03:37.440850+00:00",
+                "state": "off"
+            }
+        },
+        {
+            "last_seen": "2019-03-19T13:03:41.424424+00:00",
             "state": {
                 "attributes": {
                     "friendly_name": "Abajur Buffet Repeater RF",
@@ -186,12 +117,132 @@
                     "last_triggered": "2019-03-19T05:00:02.278765+00:00"
                 },
                 "context": {
-                    "id": "23c19e364c7c44c19e6504f6dae8bc76",
+                    "id": "f059e67154fa4c7dafa6e2986c4d0249",
                     "user_id": null
                 },
                 "entity_id": "automation.abajur_buffet_repeater_rf",
-                "last_changed": "2019-03-19T06:56:58.754637+00:00",
-                "last_updated": "2019-03-19T06:56:58.754637+00:00",
+                "last_changed": "2019-03-19T13:03:37.443627+00:00",
+                "last_updated": "2019-03-19T13:03:37.443627+00:00",
+                "state": "off"
+            }
+        },
+        {
+            "last_seen": "2019-03-19T13:03:41.424424+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Geral",
+                    "supported_features": 0
+                },
+                "context": {
+                    "id": "b5638f38dfc7449a9b517836e92be4ff",
+                    "user_id": null
+                },
+                "entity_id": "light.geral",
+                "last_changed": "2019-03-19T13:03:37.564527+00:00",
+                "last_updated": "2019-03-19T13:03:37.564527+00:00",
+                "state": "off"
+            }
+        },
+        {
+            "last_seen": "2019-03-19T13:03:41.424424+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Cama",
+                    "supported_features": 0
+                },
+                "context": {
+                    "id": "3c6d7a861721472aba25058cb1b4ce9f",
+                    "user_id": null
+                },
+                "entity_id": "light.cama",
+                "last_changed": "2019-03-19T13:03:37.531853+00:00",
+                "last_updated": "2019-03-19T13:03:37.531853+00:00",
+                "state": "off"
+            }
+        },
+        {
+            "last_seen": "2019-03-19T13:03:41.424424+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "TV",
+                    "supported_features": 0
+                },
+                "context": {
+                    "id": "d0e3dacd6c134507b49a345c506bd784",
+                    "user_id": null
+                },
+                "entity_id": "light.tv",
+                "last_changed": "2019-03-19T13:03:37.544167+00:00",
+                "last_updated": "2019-03-19T13:03:37.544167+00:00",
+                "state": "off"
+            }
+        },
+        {
+            "last_seen": "2019-03-19T13:03:41.424424+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Abajur Por do Sol",
+                    "id": "1552960832798",
+                    "last_triggered": "2019-03-19T02:01:40.619376+00:00"
+                },
+                "context": {
+                    "id": "b3316f8a4bf54647a314a94e6a40b7ef",
+                    "user_id": null
+                },
+                "entity_id": "automation.abajur_por_do_sol",
+                "last_changed": "2019-03-19T13:03:37.441755+00:00",
+                "last_updated": "2019-03-19T13:03:37.441755+00:00",
+                "state": "off"
+            }
+        },
+        {
+            "last_seen": "2019-03-19T02:22:38.367293+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "suite_criado_amanda",
+                    "supported_features": 0
+                },
+                "context": {
+                    "id": "b8a23db927ff4990ac08561babfd436e",
+                    "user_id": null
+                },
+                "entity_id": "light.suite_criado_amanda",
+                "last_changed": "2019-03-19T02:18:46.536728+00:00",
+                "last_updated": "2019-03-19T02:18:46.536728+00:00",
+                "state": "off"
+            }
+        },
+        {
+            "last_seen": "2019-03-17T16:38:23.007731+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Office light",
+                    "supported_features": 0
+                },
+                "context": {
+                    "id": "c51502d993be49619eba943f756f859d",
+                    "user_id": null
+                },
+                "entity_id": "light.office_light",
+                "last_changed": "2019-03-17T06:22:39.635328+00:00",
+                "last_updated": "2019-03-17T06:22:39.635328+00:00",
+                "state": "on"
+            }
+        },
+        {
+            "last_seen": "2019-03-19T01:45:07.193498+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Cama",
+                    "supported_features": 0
+                },
+                "context": {
+                    "id": "4dd2fb7df2ae480dae6a734a5ae9bc4a",
+                    "user_id": null
+                },
+                "entity_id": "light.cama_2",
+                "last_changed": "2019-03-19T01:16:56.872820+00:00",
+                "last_updated": "2019-03-19T01:16:56.872820+00:00",
                 "state": "off"
             }
         },
@@ -214,123 +265,19 @@
             }
         },
         {
-            "last_seen": "2019-03-19T01:45:07.193498+00:00",
-            "state": {
-                "attributes": {
-                    "friendly_name": "Cama",
-                    "supported_features": 0
-                },
-                "context": {
-                    "id": "4dd2fb7df2ae480dae6a734a5ae9bc4a",
-                    "user_id": null
-                },
-                "entity_id": "light.cama_2",
-                "last_changed": "2019-03-19T01:16:56.872820+00:00",
-                "last_updated": "2019-03-19T01:16:56.872820+00:00",
-                "state": "off"
-            }
-        },
-        {
-            "last_seen": "2019-03-19T02:18:30.390349+00:00",
-            "state": {
-                "attributes": {
-                    "friendly_name": "suite_cama",
-                    "supported_features": 0
-                },
-                "context": {
-                    "id": "27c98883f3e64854bc573d9d7b70eac1",
-                    "user_id": null
-                },
-                "entity_id": "light.suite_cama",
-                "last_changed": "2019-03-19T02:16:12.335488+00:00",
-                "last_updated": "2019-03-19T02:16:12.335488+00:00",
-                "state": "off"
-            }
-        },
-        {
             "last_seen": "2019-03-19T02:22:38.367293+00:00",
             "state": {
                 "attributes": {
-                    "friendly_name": "Suite Criado Marcelo",
+                    "friendly_name": "Suite Geral",
                     "supported_features": 0
                 },
                 "context": {
-                    "id": "732ee6b3c5184d42a40a0e01f1cba986",
+                    "id": "ce3b8d7888044b11a68763923ffdbe65",
                     "user_id": null
                 },
-                "entity_id": "light.suite_criado_marcelo",
-                "last_changed": "2019-03-19T02:18:46.512453+00:00",
-                "last_updated": "2019-03-19T02:18:46.512453+00:00",
-                "state": "off"
-            }
-        },
-        {
-            "last_seen": "2019-03-19T01:58:21.508460+00:00",
-            "state": {
-                "attributes": {
-                    "friendly_name": "Abajur Noite",
-                    "id": "1552960646597",
-                    "last_triggered": null
-                },
-                "context": {
-                    "id": "3d1589faacc2420a92715e9b22cd04fc",
-                    "user_id": null
-                },
-                "entity_id": "automation.abajur_noite",
-                "last_changed": "2019-03-19T01:57:26.116240+00:00",
-                "last_updated": "2019-03-19T01:57:26.116240+00:00",
-                "state": "on"
-            }
-        },
-        {
-            "last_seen": "2019-03-19T02:22:38.367293+00:00",
-            "state": {
-                "attributes": {
-                    "friendly_name": "Suite TV",
-                    "supported_features": 0
-                },
-                "context": {
-                    "id": "4ebca0aed4c546ff98c3a492a5711aaa",
-                    "user_id": null
-                },
-                "entity_id": "light.suite_tv",
-                "last_changed": "2019-03-19T02:18:46.518871+00:00",
-                "last_updated": "2019-03-19T02:18:46.518871+00:00",
-                "state": "off"
-            }
-        },
-        {
-            "last_seen": "2019-03-17T16:38:23.007731+00:00",
-            "state": {
-                "attributes": {
-                    "friendly_name": "Office light",
-                    "supported_features": 0
-                },
-                "context": {
-                    "id": "c51502d993be49619eba943f756f859d",
-                    "user_id": null
-                },
-                "entity_id": "light.office_light",
-                "last_changed": "2019-03-17T06:22:39.635328+00:00",
-                "last_updated": "2019-03-17T06:22:39.635328+00:00",
-                "state": "on"
-            }
-        },
-        {
-            "last_seen": "2019-03-19T02:03:59.182693+00:00",
-            "state": {
-                "attributes": {
-                    "friendly_name": "Abajur Mesa RF",
-                    "id": "1552959475962",
-                    "last_triggered": null
-                },
-                "context": {
-                    "id": "809d975b74824e87815d9e560858312b",
-                    "user_id": null
-                },
-                "entity_id": "automation.abajur_mesa_rf",
-                "last_changed": "2019-03-19T02:00:33.072539+00:00",
-                "last_updated": "2019-03-19T02:00:33.072539+00:00",
+                "entity_id": "light.suite_geral",
+                "last_changed": "2019-03-19T02:21:14.651044+00:00",
+                "last_updated": "2019-03-19T02:21:14.651044+00:00",
                 "state": "on"
             }
         },
@@ -370,37 +317,90 @@
             }
         },
         {
-            "last_seen": "2019-03-19T02:22:38.367293+00:00",
+            "last_seen": "2019-03-19T02:18:30.390349+00:00",
             "state": {
                 "attributes": {
-                    "friendly_name": "suite_criado_amanda",
+                    "friendly_name": "suite_cama",
                     "supported_features": 0
                 },
                 "context": {
-                    "id": "b8a23db927ff4990ac08561babfd436e",
+                    "id": "27c98883f3e64854bc573d9d7b70eac1",
                     "user_id": null
                 },
-                "entity_id": "light.suite_criado_amanda",
-                "last_changed": "2019-03-19T02:18:46.536728+00:00",
-                "last_updated": "2019-03-19T02:18:46.536728+00:00",
+                "entity_id": "light.suite_cama",
+                "last_changed": "2019-03-19T02:16:12.335488+00:00",
+                "last_updated": "2019-03-19T02:16:12.335488+00:00",
                 "state": "off"
+            }
+        },
+        {
+            "last_seen": "2019-03-19T02:03:59.182693+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Abajur Mesa RF",
+                    "id": "1552959475962",
+                    "last_triggered": null
+                },
+                "context": {
+                    "id": "809d975b74824e87815d9e560858312b",
+                    "user_id": null
+                },
+                "entity_id": "automation.abajur_mesa_rf",
+                "last_changed": "2019-03-19T02:00:33.072539+00:00",
+                "last_updated": "2019-03-19T02:00:33.072539+00:00",
+                "state": "on"
             }
         },
         {
             "last_seen": "2019-03-19T02:22:38.367293+00:00",
             "state": {
                 "attributes": {
-                    "friendly_name": "Suite Geral",
+                    "friendly_name": "Suite TV",
                     "supported_features": 0
                 },
                 "context": {
-                    "id": "ce3b8d7888044b11a68763923ffdbe65",
+                    "id": "4ebca0aed4c546ff98c3a492a5711aaa",
                     "user_id": null
                 },
-                "entity_id": "light.suite_geral",
-                "last_changed": "2019-03-19T02:21:14.651044+00:00",
-                "last_updated": "2019-03-19T02:21:14.651044+00:00",
+                "entity_id": "light.suite_tv",
+                "last_changed": "2019-03-19T02:18:46.518871+00:00",
+                "last_updated": "2019-03-19T02:18:46.518871+00:00",
+                "state": "off"
+            }
+        },
+        {
+            "last_seen": "2019-03-19T01:58:21.508460+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Abajur Noite",
+                    "id": "1552960646597",
+                    "last_triggered": null
+                },
+                "context": {
+                    "id": "3d1589faacc2420a92715e9b22cd04fc",
+                    "user_id": null
+                },
+                "entity_id": "automation.abajur_noite",
+                "last_changed": "2019-03-19T01:57:26.116240+00:00",
+                "last_updated": "2019-03-19T01:57:26.116240+00:00",
                 "state": "on"
+            }
+        },
+        {
+            "last_seen": "2019-03-19T02:22:38.367293+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Suite Criado Marcelo",
+                    "supported_features": 0
+                },
+                "context": {
+                    "id": "732ee6b3c5184d42a40a0e01f1cba986",
+                    "user_id": null
+                },
+                "entity_id": "light.suite_criado_marcelo",
+                "last_changed": "2019-03-19T02:18:46.512453+00:00",
+                "last_updated": "2019-03-19T02:18:46.512453+00:00",
+                "state": "off"
             }
         }
     ],

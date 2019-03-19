@@ -70,7 +70,7 @@ light:
     optimistic: false
   - platform: mqtt
     name: 'Geral'
-    uninique_id: 'suite_geral'
+    unique_id: 'suite_geral'
     state_topic: 'Suite/fita/status'
     command_topic: 'Suite/fita/switch'
     optimistic: false
@@ -86,7 +86,6 @@ media_player:
 
 switch:
   - platform: broadlink
-    name: 'sala_abajur_mesa'
     host: 192.168.1.151
     mac: 34:EA:34:BD:D3:56
     type: sp2
