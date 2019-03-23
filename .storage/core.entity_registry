@@ -144,6 +144,114 @@
                 "name": null,
                 "platform": "mqtt",
                 "unique_id": "suite_tv"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "light.geral",
+                "name": null,
+                "platform": "mqtt",
+                "unique_id": "suite_geral"
+            },
+            {
+                "config_entry_id": "dde574a44983400789fc6e3c4d7463f7",
+                "device_id": "b31677ae159a4aa3a6d44783e924db00",
+                "disabled_by": null,
+                "entity_id": "sensor.ipad_de_amanda_2_battery_state",
+                "name": null,
+                "platform": "ios",
+                "unique_id": "state_ipad_de_amanda_2"
+            },
+            {
+                "config_entry_id": "dde574a44983400789fc6e3c4d7463f7",
+                "device_id": "d4f5e0e8a25948068714db3d635c16c7",
+                "disabled_by": null,
+                "entity_id": "sensor.iphonejust_battery_level",
+                "name": null,
+                "platform": "ios",
+                "unique_id": "level_iphonejust"
+            },
+            {
+                "config_entry_id": "dde574a44983400789fc6e3c4d7463f7",
+                "device_id": "d4f5e0e8a25948068714db3d635c16c7",
+                "disabled_by": null,
+                "entity_id": "sensor.iphonejust_battery_state",
+                "name": null,
+                "platform": "ios",
+                "unique_id": "state_iphonejust"
+            },
+            {
+                "config_entry_id": "dde574a44983400789fc6e3c4d7463f7",
+                "device_id": "b31677ae159a4aa3a6d44783e924db00",
+                "disabled_by": null,
+                "entity_id": "sensor.ipad_de_amanda_2_battery_level",
+                "name": null,
+                "platform": "ios",
+                "unique_id": "level_ipad_de_amanda_2"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "media_player.apple_tv_suite_master_3",
+                "name": null,
+                "platform": "apple_tv",
+                "unique_id": "7f44c49a485a7e0165ff68f6e79dbf5575fa97fd32f97c74d15790bd0021262a"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "remote.apple_tv_suite_master_3",
+                "name": null,
+                "platform": "apple_tv",
+                "unique_id": "7f44c49a485a7e0165ff68f6e79dbf5575fa97fd32f97c74d15790bd0021262a"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "media_player.apple_tv_suite_master_4",
+                "name": null,
+                "platform": "apple_tv",
+                "unique_id": "e498a5d95776c9b3e2db8ed015ab404a98cf02356f0824018b76559586c6bf2b"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "remote.apple_tv_suite_master_4",
+                "name": null,
+                "platform": "apple_tv",
+                "unique_id": "e498a5d95776c9b3e2db8ed015ab404a98cf02356f0824018b76559586c6bf2b"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "light.cozinha",
+                "name": null,
+                "platform": "mqtt",
+                "unique_id": "cozinha_nicho"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "light.pia",
+                "name": null,
+                "platform": "mqtt",
+                "unique_id": "cozinha_pia"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "light.corredor",
+                "name": null,
+                "platform": "mqtt",
+                "unique_id": "suite_corredor"
             }
         ]
     },

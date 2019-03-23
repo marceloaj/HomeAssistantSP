@@ -80,6 +80,46 @@
                 "name": "Suite Master",
                 "name_by_user": null,
                 "sw_version": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "dde574a44983400789fc6e3c4d7463f7"
+                ],
+                "connections": [],
+                "hub_device_id": null,
+                "id": "b31677ae159a4aa3a6d44783e924db00",
+                "identifiers": [
+                    [
+                        "ios",
+                        "F9AC434D-70F3-4AD4-979C-B50766D7C8D7"
+                    ]
+                ],
+                "manufacturer": "Apple",
+                "model": "iPad 6",
+                "name": "iPad de Amanda (2)",
+                "name_by_user": null,
+                "sw_version": "12.1.4"
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "dde574a44983400789fc6e3c4d7463f7"
+                ],
+                "connections": [],
+                "hub_device_id": null,
+                "id": "d4f5e0e8a25948068714db3d635c16c7",
+                "identifiers": [
+                    [
+                        "ios",
+                        "F0EA3476-C078-4755-A241-BE46056B9A8D"
+                    ]
+                ],
+                "manufacturer": "Apple",
+                "model": "iPhone 7",
+                "name": "iPhoneJust",
+                "name_by_user": null,
+                "sw_version": "12.1.4"
             }
         ]
     },

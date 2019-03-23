@@ -74,6 +74,25 @@ light:
     state_topic: 'Suite/fita/status'
     command_topic: 'Suite/fita/switch'
     optimistic: false
+  - platform: mqtt
+    name: 'Corredor'
+    unique_id: 'suite_corredor'
+    state_topic: 'Suite/corredor/status'
+    command_topic: 'Suite/corredor/switch'
+    optimistic: false
+  - platform: mqtt
+    name: 'Cozinha'
+    unique_id: 'cozinha_nicho'
+    state_topic: 'cozinha/nicho/status'
+    command_topic: 'cozinha/nicho/switch'
+    optimistic: false
+  - platform: mqtt
+    name: 'Pia'
+    unique_id: 'cozinha_pia'
+    state_topic: 'cozinha/pia/status'
+    command_topic: 'cozinha/pia/switch'
+    optimistic: false
+
 
 media_player:
   - platform: denonavr
@@ -102,15 +121,125 @@ switch:
       abajur_buffet:
         friendly_name: "Abajur Buffet"
         command_off: '1wAeAgoJBQcEBgYOBAQSCwQEBgoHBQwLBQQECQQMBAQGBAQJCgsFBgUHBBIEBQsKBAkGBQQOBg8EIQQEBgQLBAQEBgcODQQFExoLBgYECAYHDAkXBAQECQQECgwFBQQOBAUKBgUJBDAGGgcKGAkZCBoIGwcZGgkWDQQdBR4EHhMNFg0EHgQcFg4EHRYMBB0FHwQeBRsHGhgLBRwGAAEFGwgZCAkaBhoIGgcaCRsXCBkKBxoIGgcaGQgaCQcaCBkZCAkZGQkJGQgZCRgJGgcbGQcJGQkAAQMbCBoGCxcKGAoXDBYKGBoIGgkHGggYChgbBhsHCRgLGBgJCRgaBwsYCBkLGAgYChgaBwoZCgABAR0GGgcKGAoYCRgLFwsWGgcbCAoXChcLFxoHGwcKFwoYGwcLFxsGChcKGAoXChkKFhwHCxYKqjMLBA4IHgUcBQsXCxYMFwoWDBYbBxsKBxcKGQkYGwYaCAkYCRkaCQcZGggJGAoYChcLGAoXGgcKGQoAAQAdBhwHCxcJFwsWDBYLFxsIGQcKFwsXChcbCBoHCRkLFhsHCRgbBwoYCRcLFwoYChgaCAkYCgABAh0EHQcIGQoXChgKFwoYGwYbBwoYCxcLFR0GGggJGAkYGgkJGBoHCxcKFwoXDBcJFxwGChgKAAECHgUbBgsYCRcLFwsWChcdBRsICQABREUEBwsGCgQGEgQLBwQFCwQFBARGBA4EAAXcGggZGQgJGRkJCQ=='
-      varanda_persiana_abrir:
-        friendly_name: "Abrir Persianas"
-        command_on:  '6QGEAxcMFw0XDAwYCxgXDQsZDBcXDBcNCxgMGAwYDBcMGBcMGAwLGBcNFwwMGBcMFw4LFxgMCxgMGAsYDBgLGQsYDBgMFxcNDBcMGAsYGHKdMgwXDRcXDhUNFwwMGAsYFw0LGAwYFw4WDQoZCxgMGQoYDBgXDBgMCxgXDRcMDBgXDRYNCxkWDQsaChgMGAsYDRcLGA0XCxgXDQsYDBgLGBhAnDIMGQoZGAsXDBcNCxgMGBcOChgLGRcMFw4KGAsZCxgMGAsaFQ0XDAwYFw0XDAwXFw0XDQwXFw0LGAsZCxgMGAsYDBgLGAwYGAsNFwsZCxgXcp0yDBgLGRcMFwwYDA0XCxgXDQsYDRcXDBcNCxgMGQoYDBgLGBgNFwsMGBcNFwwLGhYMFwwMGBgNChgMGAsZCxgLGAwYCxgMGBcMDBgLGQsYF0CeMQsZCxoVDRcMFw0LGAwYFwwMGAsYFw0XDQsYCxgMGAsYDBgXDRcMCxkYCxcNCxoVDhYMCxkYCwsaChgMGAsYDBgLGAwYDBgXDAwYCxgMGBdynTILGAwYGA0WDBcNDBcMGBgLDBgLGBcNGAsMGAsZCxgLGQ0WFw0XDAsZFwwXDQsYFw4WDAsaFgwMGAwXDBgLGAwYDRYMGAsaFgwLGQsYDBgYP50yCxgMGBcMGQsXDAwYCxkXDAsYDBgXDRcNChgMGQsYCxgMGBcMGAwLGBcNFwwNFwkECQ4XDQsYFw0LGAwYCxgMGQoZDBcMGAsYGAwLGAwYCxgYip0yCxgMGRYMGAwXDgsXCxgYDAwYCxgXDRcNCxgLGQwXDBcMGBcNFwwMGBgNFQ0LGBcOFgwMGBcMDRcMFwwYCxgNFwwYCxgNFxcNFwwXDBgMC0ydMgwZChkWDBgNFg0MFwsZFwwMGAsYFw0XDAwYDBcMGAsZCxgXDhYNCxgXDBcNCxgXDRcMDBgYDAsYDBgLGAsZCxgMGAsZCxkWDBcOFg0XDAt+nTILGAwZFgwXDhYMDBoJGBgMCxoKGBgMFwwLGQwXDBkMFgwYFwwYDAsZFwwXDQsZFg0XDAsZFwwLGQsYDRcLGAwYDBgLGAwYFw0YCxcNFg0MTJwyDBcMGBgMFwwXDgoYCxkXDAwYCxgXDRgMCxgLGQsYCxgMGBcNFw0LGBcMGAwNFhcNFwwMGBcMDBgMFwwYDRcLGAwZChgMGBcNFwwXDBgMCwAF3AAAAAA='
-        command_off: '6QGEAwgbFg4UDxUOCRsJGhUPCRoKGhUOFQ8JGwkZChoKGQoaFg4VDwkZGAwWDQoaFg0WDgoZFw0KGQsZChkLGgkZCxkWDQsZFg4KGRYNCxkWcp0yCxkKGhYNFwwYDAoZCxkWDQsZCxkWDRYNCxkLGQoZCxkLGBgMFg0MGBYNFw0KGRcOFQ8JGRYNCxkLGAsZCxoJGQsYGA0KGBcNDBkVDQsZFkKbMgsZCxgXDRcNFw0KGQoZFw0LGAsZFg0XDQsYDRcLGQoZCxgXDRcNChkXDBcOChgXDRcNChkXDAsaChkKGQsZCxgMGRYMDBgYCwsZFwwLGhdxnTMKGAwYFw0WDRgMChkLGBcNDBcMGBcNFg0LGQsZChgMGQoZFg0XDAwYFwwXDQsYFw0XDAsZFwwMGAsYDRcLGQsYCxkWDQsZFw0KGRcMCxkXQZwxDBgLGBcNFw4VDQsZChkXDAsZCxgXDRgLCxkMFwsZCxgMGBcMFw0MFxcNFwwLGRcMFw4KGBcNCxgLGQsYCxkMFw0XFwwMGBcMDBgXDAwYF3GdMgwYCxgXDRcNFg0MFwwYFw0LGQoZFwwZCgwYDBgLGQsYCxgXDRcNCxgYCxcNCxgYDBcNCxgXDAwYCxoKGAwYCxkKGRcMDBkWDAwZFg0LGBdBnDILGAwYFw0WDRcOChgLGBkLCxgMGBcNFg0LGQsYCxkLGQsYFw0WDQwXFw0XDAwYGAsYDAsYFw4KGQsYDBgLGgoYCxkWDQsZFg0LGBcPCRgXc50xDRcLGRcMFw0WDQsYDBgXDQsYCxkWDhYNCxgMFwwYCxoKGBgMGAwKGBcNFw4KGBcOFQ0LGRYNCxkLGAsYDBgLGQsYFw0LGBcNCxkWDgoYF0CdMgsYDBgXDBcNGAsMGAsYFw0LGAwZFg0YCwsaChgLGQsYCxkXDBcMDRgWDRYNCxkXDRYOChkWDA0XCxoKGAsZCxgMGBcMCxkXDAwYFwwMGBdxnTILGQwXFw0XDBcNCxkLGBcMDBgNFhcNFwwMGAsZCxgLGQwXGAwXDAwYFwwXDQsZFg0XDA0YFgwNGAoYDBgMFwwYCxkYCwsZFwwMGBcMDBkXP50yDBcMGBcOFwsXDAsZCxkWDQsYDBgXDRYNDBkKGAsZCxgMGBcMFw0LGBcNFwwLGRgLGA0KGBcNCxgNFwsaChgLGQsYFw4KGBcNCxgXDQsYFwAF3AAAAAA='
-      varanda_persiana_fechar:
-        friendly_name: "Fechar Persianas"
-        command_on:  '6QAyAwsXDBgXDRcMFw0KGQsZFg8JGQoaFRAQXAYeBR8FHgsEBBISEgcdERETEAcdExESEgYcExEHHAgcBxsJGwgcCBsJGhUPFA8JGwkaFQ8VQpo2CBoJGxUOFQ8VDwgaChoVDgoaChsUDxQOChoKGQoaChsJGRYOFQ4KGhcMFg0LGRcMFg4KGRYOChkLGQwXCxsIGwkZCxkWDhYNCxgLGhUNFnScMg0XDBcXDRYPFQ0KGgoZFg4KGQsYGA0WDQsYDBgKGQsZCxgXDRcMDBgWDhYNCxkXDBYNCxkWDQ0XCxgLGQsYDRcLGQsYFw0XDAsZCxkWDRZBnDMLGQoaFQ0XDRYNCxkMGBYNDBcNGBYNFg4KGAwYCxgNFwsYFw0XDQoZFw0WDQsYFw0XDAwYFw0KGQsZCxgMGAwXCxkLGRYOFwsLGQsaFQ0YcpwyCxkLGBcNGAsYDAsYDRcXDAwZChkWDRgLDBkKGQsYCxgNGBYNFg0LGRcMFw0LGBgMFg0LGRcMCxkMFwwZChkLGAsYDRcXDRcMDBkKGBgMF0GbNAoZChoWDBgMGAwKGQsYFw0LGQoZFw0WDQwXDBgLGQsYDBgXDBgMCxgXDRcOChgXDBcNCxgXDQsYCxkMFwwYCxkLGAsZFwwXDQsYDRgWDBeLnTILGAwYFwwXDRcNCxgLGRYOChkLGBcNFwwLGQsYDBgLGgoZFwwYCwsaFgwXDQwXFw0XDAwYFw4LFwsZDBgKGQsYDBgLGRcMFw0YCxcMDRcNSp0yDBgMGBYPFQ0WDQwYDBcXDQsaCRkXDRYNCxgMGAsYCxkLGRcMFw0LGhUOFgwLGRcMFw0LGBcNCxkLGQoZCxgNFwsYDBgXDhUNFwwXDQsYDXydMgwYCxkWDRcOFwsLGQsYFw0LGQoZFwwXDgoYDBkMFgwZChkXDBcOChgZDBYMCxkXDhYNChkWDgoYDBgNFwsYDBkKGQsYFwwXDRcNFwwLGQtMnTILGAsaFg0WDRgMCxgLGRYNDBgLGBgMFwwMGAsYDBgLGQsYFw0WDQsZFg0XDQsZFg0XDAsZGAwLGAwXDBgLGQsYCxkMFxcNFwwXDRcOChgLAAXcCxgLGhYN'
-        command_off: '6QGEAwgbFg4UDxUOCRsJGhUPCRoKGhUOFQ8JGwkZChoKGQoaFg4VDwkZGAwWDQoaFg0WDgoZFw0KGQsZChkLGgkZCxkWDQsZFg4KGRYNCxkWcp0yCxkKGhYNFwwYDAoZCxkWDQsZCxkWDRYNCxkLGQoZCxkLGBgMFg0MGBYNFw0KGRcOFQ8JGRYNCxkLGAsZCxoJGQsYGA0KGBcNDBkVDQsZFkKbMgsZCxgXDRcNFw0KGQoZFw0LGAsZFg0XDQsYDRcLGQoZCxgXDRcNChkXDBcOChgXDRcNChkXDAsaChkKGQsZCxgMGRYMDBgYCwsZFwwLGhdxnTMKGAwYFw0WDRgMChkLGBcNDBcMGBcNFg0LGQsZChgMGQoZFg0XDAwYFwwXDQsYFw0XDAsZFwwMGAsYDRcLGQsYCxkWDQsZFw0KGRcMCxkXQZwxDBgLGBcNFw4VDQsZChkXDAsZCxgXDRgLCxkMFwsZCxgMGBcMFw0MFxcNFwwLGRcMFw4KGBcNCxgLGQsYCxkMFw0XFwwMGBcMDBgXDAwYF3GdMgwYCxgXDRcNFg0MFwwYFw0LGQoZFwwZCgwYDBgLGQsYCxgXDRcNCxgYCxcNCxgYDBcNCxgXDAwYCxoKGAwYCxkKGRcMDBkWDAwZFg0LGBdBnDILGAwYFw0WDRcOChgLGBkLCxgMGBcNFg0LGQsYCxkLGQsYFw0WDQwXFw0XDAwYGAsYDAsYFw4KGQsYDBgLGgoYCxkWDQsZFg0LGBcPCRgXc50xDRcLGRcMFw0WDQsYDBgXDQsYCxkWDhYNCxgMFwwYCxoKGBgMGAwKGBcNFw4KGBcOFQ0LGRYNCxkLGAsYDBgLGQsYFw0LGBcNCxkWDgoYF0CdMgsYDBgXDBcNGAsMGAsYFw0LGAwZFg0YCwsaChgLGQsYCxkXDBcMDRgWDRYNCxkXDRYOChkWDA0XCxoKGAsZCxgMGBcMCxkXDAwYFwwMGBdxnTILGQwXFw0XDBcNCxkLGBcMDBgNFhcNFwwMGAsZCxgLGQwXGAwXDAwYFwwXDQsZFg0XDA0YFgwNGAoYDBgMFwwYCxkYCwsZFwwMGBcMDBkXP50yDBcMGBcOFwsXDAsZCxkWDQsYDBgXDRYNDBkKGAsZCxgMGBcMFw0LGBcNFwwLGRgLGA0KGBcNCxgNFwsaChgLGQsYFw4KGBcNCxgXDQsYFwAF3AAAAAA='
-      sala_ar_frio:
-        friendly_name: "Ar Frio"
-        command_on:  'JgC8AXI4DisODQ8OEA4NKw4NDw4ODg4ODykPDw4pECkPDQ8qDysOKw0qDykQDg0PDisNDhAODQ4PDQ4PDg4PKQ8rDisNKg8NDw0PDg8NDg4PDw0ODw8ODg0ODw0QDA8OEA0ODRANDg8ODg4NDw4PDRAODQ4ODhAMECkODw4PDQ8ODRANDg8NAAPNcTkPKg4NEQwOEA4qDQ4PDQ8ODg8OKg8NDisOKg4PDioPKg8pDyoPKg4PDg4NKw8ODg0PDg4ODw0PDg4PDg0ODg8OEAwODhAMDw4PDg8MDw4PDQ8rDQ4ODg8NDyoQKQ8ODQ4QDQ8NDg8PDBAqDykODg8ODw0ODg4ODw0PDg4OEAwRDBANDg0PDhANDw0PKQ4PDykPDQ8NEA0PDQ4OEA4NDg4ODw0PDg4ODw0PDg4ODw0PDQ8PDg0QDBANDg4QDQ4ODg4ODw4ODg4ODhAMDw8NDhAMEA0ODw4ODg4PDRANDg4ODg4OEAwPDg4OEAwPDw0ODg4PDw4NDw8NDRANDg4PKg4qDw0QDg0ODw0QDQ8NDw0PDg4ODg8ODQ8PDQ8ODQ8ODw4OKg8rDQ8ODQ8rDQ4PKw4pEAANBQAAAAAAAAAAAAAAAA=='
-        command_off: 'JgC8AXI5DSoPDg4OEA0OKw0ODw8ODQ4OESgODw8pDioQDQ4rDioOKw8pDioQDQ8NECkPDRAMEA4ODg8ODQ4PKRIpDCoPKw0PDg4ODg4PDg4ODg8NDw8NDg4ODg4PDg8NEAwQDA8ODw0PDQ8PDQ4PDw4NDg4ODg8ODykQDA8PDQ4PDQ8ODw0PAAPMcToNKw4ODg8ODQ8qDg4PDg8NDg8PKQ8ODioOKhAMDyoOLA0qDyoOKg8ODg4OKw8NDw0PDw0PDg8ODg0ODw0PDRANDw0PDQ8ODg4ODw4NDw4ODhAMDw4ODw0PDioOKw8NDg4PDw4NDw0ODw4qDisODg4ODw0PDg4PDQ4QDQ4ODw0QDQ4PDw0PDA8OEAwPKg4ODisPDQ4ODw8ODQ4PDg4ODg4PDQ4PDhAMEA0PDA8ODhAODA8ODw0PDQ8ODg4PDQ8NDw8ODw0NEQwPDQ8NDw4ODhAODQ0PDg4OEAwQDg4NDw0PDhAMDg4PDw0ODw4PDBAODg0QDA8ODg4PDQ8ODg4OLA0qDw0PDw8MDw0QDQ4ODg4QDQ8NDg8ODhAMDw0QDA8ODg8ODQ8rDQ4PDw4pDw4OKg8rDQANBQAAAAAAAAAAAAAAAA=='
+
+cover:
+  - platform: template
+    covers:
+      varanda_persianas:
+        friendly_name: "Todas"
+        optimistic: true
+        open_cover:
+          - service: mqtt.publish
+            data:
+              topic: 'varanda/todas/set'
+              payload: 'open'
+        close_cover:
+          - service: mqtt.publish
+            data:
+              topic: 'varanda/todas/set'
+              payload: 'close'
+        stop_cover:
+          - service: mqtt.publish
+            data:
+              topic: 'varanda/todas/set'
+              payload: 'stop'
+
+      varanda_persiana_1:
+        friendly_name: "Persiana 1"
+        open_cover:
+          - service: mqtt.publish
+            data:
+              topic: 'varanda/1/set'
+              payload: 'open'
+        close_cover:
+          - service: mqtt.publish
+            data:
+              topic: 'varanda/1/set'
+              payload: 'close'
+        stop_cover:
+          - service: mqtt.publish
+            data:
+              topic: 'varanda/1/set'
+              payload: 'stop'
+
+      varanda_persiana_2:
+        friendly_name: "Persiana 2"
+        open_cover:
+          - service: mqtt.publish
+            data:
+              topic: 'varanda/2/set'
+              payload: 'open'
+        close_cover:
+          - service: mqtt.publish
+            data:
+              topic: 'varanda/2/set'
+              payload: 'close'
+        stop_cover:
+          - service: mqtt.publish
+            data:
+              topic: 'varanda/2/set'
+              payload: 'stop'
+
+      varanda_persiana_3:
+        friendly_name: "Persiana 3"
+        open_cover:
+          - service: mqtt.publish
+            data:
+              topic: 'varanda/3/set'
+              payload: 'open'
+        close_cover:
+          - service: mqtt.publish
+            data:
+              topic: 'varanda/3/set'
+              payload: 'close'
+        stop_cover:
+          - service: mqtt.publish
+            data:
+              topic: 'varanda/3/set'
+              payload: 'stop'
+
+      varanda_persiana_4:
+        friendly_name: "Persiana 4"
+        open_cover:
+          - service: mqtt.publish
+            data:
+              topic: 'varanda/4/set'
+              payload: 'open'
+        close_cover:
+          - service: mqtt.publish
+            data:
+              topic: 'varanda/4/set'
+              payload: 'close'
+        stop_cover:
+          - service: mqtt.publish
+            data:
+              topic: 'varanda/4/set'
+              payload: 'stop'
+
+      varanda_persiana_5:
+        friendly_name: "Persiana 5"
+        open_cover:
+          - service: mqtt.publish
+            data:
+              topic: 'varanda/5/set'
+              payload: 'open'
+        close_cover:
+          - service: mqtt.publish
+            data:
+              topic: 'varanda/5/set'
+              payload: 'close'
+        stop_cover:
+          - service: mqtt.publish
+            data:
+              topic: 'varanda/5/set'
+              payload: 'stop'
+
+binary_sensor:
+  - platform: mqtt
+    name: "Porta Lavanderia"
+    state_topic: "lavanderia/porta/state"
+    payload_on: "open"
+    payload_off: "closed"
+    device_class: door
+    off_delay: 10
+

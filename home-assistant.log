@@ -1,3 +1,4 @@
-2019-03-19 10:03:35 WARNING (MainThread) [homeassistant.helpers.config_validation] Your configuration contains extra keys that the platform does not support.
-Please remove [uninique_id]. 
-2019-03-19 10:03:37 ERROR (Thread-20) [homeassistant.components.ios.notify] The notify.ios platform was loaded but no devices exist! Please check the documentation at https://home-assistant.io/ecosystem/ios/notifications/ for more information
+2019-03-23 02:33:56 WARNING (MainThread) [homeassistant.components.switch] Setup of platform broadlink is taking over 10 seconds.
+2019-03-23 02:33:56 ERROR (Thread-17) [homeassistant.components.switch.broadlink] Failed to connect to device
+2019-03-23 02:36:01 ERROR (Thread-23) [pychromecast.socket_client] [Suite Master:8009] Error reading from socket.
+2019-03-23 02:36:01 WARNING (Thread-23) [pychromecast.socket_client] [Suite Master:8009] Error communicating with socket, resetting connection
