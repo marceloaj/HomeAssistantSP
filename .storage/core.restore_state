@@ -1,343 +1,7 @@
 {
     "data": [
         {
-            "last_seen": "2019-03-23T05:33:56.163826+00:00",
-            "state": {
-                "attributes": {
-                    "friendly_name": "Abajur Apaga 23:45",
-                    "id": "1552960646597",
-                    "last_triggered": "2019-03-23T02:45:00.080613+00:00"
-                },
-                "context": {
-                    "id": "2c61c227555f4685927e71a5e6ff787e",
-                    "user_id": null
-                },
-                "entity_id": "automation.abajur_apaga_23_45",
-                "last_changed": "2019-03-23T05:33:46.152621+00:00",
-                "last_updated": "2019-03-23T05:33:46.152621+00:00",
-                "state": "off"
-            }
-        },
-        {
-            "last_seen": "2019-03-23T05:33:56.163826+00:00",
-            "state": {
-                "attributes": {
-                    "friendly_name": "Geral",
-                    "supported_features": 0
-                },
-                "context": {
-                    "id": "9936a0d0943d4493bf9c7022d5fe3379",
-                    "user_id": null
-                },
-                "entity_id": "light.geral",
-                "last_changed": "2019-03-23T05:33:46.322744+00:00",
-                "last_updated": "2019-03-23T05:33:46.322744+00:00",
-                "state": "off"
-            }
-        },
-        {
-            "last_seen": "2019-03-23T05:33:56.163826+00:00",
-            "state": {
-                "attributes": {
-                    "friendly_name": "Suite Persiana Parar",
-                    "id": "1553148542838",
-                    "last_triggered": "2019-03-22T02:39:00.374684+00:00"
-                },
-                "context": {
-                    "id": "dc6af042969649dcb7a3c619f1554720",
-                    "user_id": null
-                },
-                "entity_id": "automation.suite_persiana_parar",
-                "last_changed": "2019-03-23T05:33:46.158112+00:00",
-                "last_updated": "2019-03-23T05:33:46.158112+00:00",
-                "state": "off"
-            }
-        },
-        {
-            "last_seen": "2019-03-23T05:33:56.163826+00:00",
-            "state": {
-                "attributes": {
-                    "friendly_name": "Varanda Persianas Todas Abrir",
-                    "id": "1553317888613",
-                    "last_triggered": "2019-03-23T05:20:23.453800+00:00"
-                },
-                "context": {
-                    "id": "f78c295f1e0646beb63b595ce302a84e",
-                    "user_id": null
-                },
-                "entity_id": "automation.varanda_persianas_todas_abrir",
-                "last_changed": "2019-03-23T05:33:46.159046+00:00",
-                "last_updated": "2019-03-23T05:33:46.159046+00:00",
-                "state": "off"
-            }
-        },
-        {
-            "last_seen": "2019-03-23T05:33:56.163826+00:00",
-            "state": {
-                "attributes": {
-                    "friendly_name": "Varanda Persianas Todas Fechar",
-                    "id": "1553317945238",
-                    "last_triggered": "2019-03-23T05:20:19.863957+00:00"
-                },
-                "context": {
-                    "id": "8bde84e0774249e0a20b94f6c3e6aa06",
-                    "user_id": null
-                },
-                "entity_id": "automation.varanda_persianas_todas_fechar",
-                "last_changed": "2019-03-23T05:33:46.159943+00:00",
-                "last_updated": "2019-03-23T05:33:46.159943+00:00",
-                "state": "off"
-            }
-        },
-        {
-            "last_seen": "2019-03-23T05:33:56.163826+00:00",
-            "state": {
-                "attributes": {
-                    "friendly_name": "Abajur Por do Sol",
-                    "id": "1552960832798",
-                    "last_triggered": "2019-03-22T21:16:30.236658+00:00"
-                },
-                "context": {
-                    "id": "9fc8c289f1424a83a1fbb365e5e1dcfd",
-                    "user_id": null
-                },
-                "entity_id": "automation.abajur_por_do_sol",
-                "last_changed": "2019-03-23T05:33:46.153595+00:00",
-                "last_updated": "2019-03-23T05:33:46.153595+00:00",
-                "state": "off"
-            }
-        },
-        {
-            "last_seen": "2019-03-23T05:33:56.163826+00:00",
-            "state": {
-                "attributes": {
-                    "friendly_name": "Corredor",
-                    "supported_features": 0
-                },
-                "context": {
-                    "id": "80b32775d7b14cf1bc7e40fe729844c7",
-                    "user_id": null
-                },
-                "entity_id": "light.corredor",
-                "last_changed": "2019-03-23T05:33:46.231264+00:00",
-                "last_updated": "2019-03-23T05:33:46.231264+00:00",
-                "state": "off"
-            }
-        },
-        {
-            "last_seen": "2019-03-23T05:33:56.163826+00:00",
-            "state": {
-                "attributes": {
-                    "friendly_name": "Varanda Persianas Todas Parar",
-                    "id": "1553318070847",
-                    "last_triggered": "2019-03-23T05:20:24.474095+00:00"
-                },
-                "context": {
-                    "id": "e4d936bc50d74ad59b08cb536995d578",
-                    "user_id": null
-                },
-                "entity_id": "automation.varanda_persianas_todas_parar",
-                "last_changed": "2019-03-23T05:33:46.150769+00:00",
-                "last_updated": "2019-03-23T05:33:46.150769+00:00",
-                "state": "off"
-            }
-        },
-        {
-            "last_seen": "2019-03-23T05:33:56.163826+00:00",
-            "state": {
-                "attributes": {
-                    "friendly_name": "Suite Persiana Fechar",
-                    "id": "1553148444439",
-                    "last_triggered": "2019-03-23T05:28:36.848324+00:00"
-                },
-                "context": {
-                    "id": "be12293320ab41429e2f0baa34528afc",
-                    "user_id": null
-                },
-                "entity_id": "automation.suite_persiana_fechar",
-                "last_changed": "2019-03-23T05:33:46.157189+00:00",
-                "last_updated": "2019-03-23T05:33:46.157189+00:00",
-                "state": "off"
-            }
-        },
-        {
-            "last_seen": "2019-03-23T05:33:56.163826+00:00",
-            "state": {
-                "attributes": {
-                    "friendly_name": "Cozinha",
-                    "supported_features": 0
-                },
-                "context": {
-                    "id": "88f6e2a0dc8741f19639f186d82ee310",
-                    "user_id": null
-                },
-                "entity_id": "light.cozinha",
-                "last_changed": "2019-03-23T05:33:46.249876+00:00",
-                "last_updated": "2019-03-23T05:33:46.249876+00:00",
-                "state": "off"
-            }
-        },
-        {
-            "last_seen": "2019-03-23T05:33:56.163826+00:00",
-            "state": {
-                "attributes": {
-                    "friendly_name": "Suite Persiana Abrir",
-                    "id": "1553148207146",
-                    "last_triggered": "2019-03-22T02:38:41.644390+00:00"
-                },
-                "context": {
-                    "id": "2438ed6e84f141c5bbd9062a3fc942cc",
-                    "user_id": null
-                },
-                "entity_id": "automation.suite_persiana_abrir",
-                "last_changed": "2019-03-23T05:33:46.156286+00:00",
-                "last_updated": "2019-03-23T05:33:46.156286+00:00",
-                "state": "off"
-            }
-        },
-        {
-            "last_seen": "2019-03-23T05:33:56.163826+00:00",
-            "state": {
-                "attributes": {
-                    "friendly_name": "Abajur Mesa RF Repeater",
-                    "id": "1552959475962",
-                    "last_triggered": "2019-03-22T04:24:46.500570+00:00"
-                },
-                "context": {
-                    "id": "e7d0ebc26d6549b0afb6c4c172a4d8ec",
-                    "user_id": null
-                },
-                "entity_id": "automation.abajur_mesa_rf_repeater",
-                "last_changed": "2019-03-23T05:33:46.151674+00:00",
-                "last_updated": "2019-03-23T05:33:46.151674+00:00",
-                "state": "off"
-            }
-        },
-        {
-            "last_seen": "2019-03-23T05:33:56.163826+00:00",
-            "state": {
-                "attributes": {
-                    "friendly_name": "Teste",
-                    "id": "1552962242125",
-                    "last_triggered": "2019-03-19T02:30:39.214702+00:00"
-                },
-                "context": {
-                    "id": "0b5493cd9af740f59428d5177edf52e1",
-                    "user_id": null
-                },
-                "entity_id": "automation.teste",
-                "last_changed": "2019-03-23T05:33:46.154480+00:00",
-                "last_updated": "2019-03-23T05:33:46.154480+00:00",
-                "state": "off"
-            }
-        },
-        {
-            "last_seen": "2019-03-23T05:33:56.163826+00:00",
-            "state": {
-                "attributes": {
-                    "friendly_name": "Pia",
-                    "supported_features": 0
-                },
-                "context": {
-                    "id": "8d1bba165cac4cc0812f6c456bb0b61d",
-                    "user_id": null
-                },
-                "entity_id": "light.pia",
-                "last_changed": "2019-03-23T05:33:46.260474+00:00",
-                "last_updated": "2019-03-23T05:33:46.260474+00:00",
-                "state": "off"
-            }
-        },
-        {
-            "last_seen": "2019-03-23T05:33:56.163826+00:00",
-            "state": {
-                "attributes": {
-                    "friendly_name": "Cama",
-                    "supported_features": 0
-                },
-                "context": {
-                    "id": "2c86b0b0b97f4d39b51cf6c8a074b057",
-                    "user_id": null
-                },
-                "entity_id": "light.cama",
-                "last_changed": "2019-03-23T05:33:46.280961+00:00",
-                "last_updated": "2019-03-23T05:33:46.280961+00:00",
-                "state": "off"
-            }
-        },
-        {
-            "last_seen": "2019-03-23T05:33:56.163826+00:00",
-            "state": {
-                "attributes": {
-                    "editable": true,
-                    "friendly_name": "Marcelo",
-                    "id": "6eba4badf0f84f89b893fccfb2658e5a",
-                    "source": "person.marcelo",
-                    "user_id": "050f489d0a7643d192ac114b2c57986b"
-                },
-                "context": {
-                    "id": "3d0e786f5d9e48648dcb11f9f0fad05a",
-                    "user_id": null
-                },
-                "entity_id": "person.marcelo",
-                "last_changed": "2019-03-23T05:33:46.149704+00:00",
-                "last_updated": "2019-03-23T05:33:46.149704+00:00",
-                "state": "unknown"
-            }
-        },
-        {
-            "last_seen": "2019-03-23T05:33:56.163826+00:00",
-            "state": {
-                "attributes": {
-                    "friendly_name": "Criado Marcelo",
-                    "supported_features": 0
-                },
-                "context": {
-                    "id": "e76f2f225d43416d9cb7fdc9579c7677",
-                    "user_id": null
-                },
-                "entity_id": "light.criado_marcelo",
-                "last_changed": "2019-03-23T05:33:46.299995+00:00",
-                "last_updated": "2019-03-23T05:33:46.299995+00:00",
-                "state": "off"
-            }
-        },
-        {
-            "last_seen": "2019-03-23T05:33:56.163826+00:00",
-            "state": {
-                "attributes": {
-                    "friendly_name": "Criado Amanda",
-                    "supported_features": 0
-                },
-                "context": {
-                    "id": "952361c1e70d45e8afad7f1586f531dd",
-                    "user_id": null
-                },
-                "entity_id": "light.criado_amanda",
-                "last_changed": "2019-03-23T05:33:46.271926+00:00",
-                "last_updated": "2019-03-23T05:33:46.271926+00:00",
-                "state": "off"
-            }
-        },
-        {
-            "last_seen": "2019-03-23T05:33:56.163826+00:00",
-            "state": {
-                "attributes": {
-                    "friendly_name": "TV",
-                    "supported_features": 0
-                },
-                "context": {
-                    "id": "ac5f4d01706642119f58f651c945af24",
-                    "user_id": null
-                },
-                "entity_id": "light.tv",
-                "last_changed": "2019-03-23T05:33:46.313532+00:00",
-                "last_updated": "2019-03-23T05:33:46.313532+00:00",
-                "state": "off"
-            }
-        },
-        {
-            "last_seen": "2019-03-23T05:33:56.163826+00:00",
+            "last_seen": "2019-03-26T03:45:44.906922+00:00",
             "state": {
                 "attributes": {
                     "friendly_name": "Abajur Buffet Repeater RF",
@@ -345,151 +9,347 @@
                     "last_triggered": "2019-03-22T04:24:51.178379+00:00"
                 },
                 "context": {
-                    "id": "48a7db84a44540f4becaf94cc4705393",
+                    "id": "4cac7d3029334fb1af78387f2fffaa5a",
                     "user_id": null
                 },
                 "entity_id": "automation.abajur_buffet_repeater_rf",
-                "last_changed": "2019-03-23T05:33:46.155415+00:00",
-                "last_updated": "2019-03-23T05:33:46.155415+00:00",
-                "state": "off"
-            }
-        },
-        {
-            "last_seen": "2019-03-19T01:59:46.940464+00:00",
-            "state": {
-                "attributes": {
-                    "friendly_name": "MQTT_Abajur",
-                    "id": "1552959475962",
-                    "last_triggered": "2019-03-19T01:53:07.879378+00:00"
-                },
-                "context": {
-                    "id": "bf226d77985a4c37b9e53ced44510b02",
-                    "user_id": null
-                },
-                "entity_id": "automation.mqtt_abajur",
-                "last_changed": "2019-03-19T01:58:21.542357+00:00",
-                "last_updated": "2019-03-19T01:58:21.542357+00:00",
+                "last_changed": "2019-03-24T14:00:02.802713+00:00",
+                "last_updated": "2019-03-24T14:00:02.802713+00:00",
                 "state": "on"
             }
         },
         {
-            "last_seen": "2019-03-19T01:45:07.193498+00:00",
+            "last_seen": "2019-03-26T03:45:44.906922+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Varanda Persianas Todas Fechar",
+                    "id": "1553317945238",
+                    "last_triggered": "2019-03-23T05:20:19.863957+00:00"
+                },
+                "context": {
+                    "id": "11ac57f5932b4cdea7193adce4b9e4b5",
+                    "user_id": null
+                },
+                "entity_id": "automation.varanda_persianas_todas_fechar",
+                "last_changed": "2019-03-24T14:00:02.856402+00:00",
+                "last_updated": "2019-03-24T14:00:02.856402+00:00",
+                "state": "on"
+            }
+        },
+        {
+            "last_seen": "2019-03-26T03:45:44.906922+00:00",
             "state": {
                 "attributes": {
                     "friendly_name": "Cama",
                     "supported_features": 0
                 },
                 "context": {
-                    "id": "4dd2fb7df2ae480dae6a734a5ae9bc4a",
+                    "id": "e7db107a4e454d75883da0b200ccbc73",
                     "user_id": null
                 },
-                "entity_id": "light.cama_2",
-                "last_changed": "2019-03-19T01:16:56.872820+00:00",
-                "last_updated": "2019-03-19T01:16:56.872820+00:00",
+                "entity_id": "light.cama",
+                "last_changed": "2019-03-24T13:59:59.441039+00:00",
+                "last_updated": "2019-03-24T13:59:59.441039+00:00",
                 "state": "off"
             }
         },
         {
-            "last_seen": "2019-03-19T02:22:38.367293+00:00",
+            "last_seen": "2019-03-26T03:45:44.906922+00:00",
             "state": {
                 "attributes": {
-                    "friendly_name": "Suite Criado Marcelo",
-                    "supported_features": 0
+                    "friendly_name": "Suite Persiana Parar",
+                    "id": "1553148542838",
+                    "last_triggered": "2019-03-22T02:39:00.374684+00:00"
                 },
                 "context": {
-                    "id": "732ee6b3c5184d42a40a0e01f1cba986",
+                    "id": "aead02f23f82496ea4668bc52a8c910a",
                     "user_id": null
                 },
-                "entity_id": "light.suite_criado_marcelo",
-                "last_changed": "2019-03-19T02:18:46.512453+00:00",
-                "last_updated": "2019-03-19T02:18:46.512453+00:00",
-                "state": "off"
-            }
-        },
-        {
-            "last_seen": "2019-03-19T02:22:38.367293+00:00",
-            "state": {
-                "attributes": {
-                    "friendly_name": "Suite Geral",
-                    "supported_features": 0
-                },
-                "context": {
-                    "id": "ce3b8d7888044b11a68763923ffdbe65",
-                    "user_id": null
-                },
-                "entity_id": "light.suite_geral",
-                "last_changed": "2019-03-19T02:21:14.651044+00:00",
-                "last_updated": "2019-03-19T02:21:14.651044+00:00",
+                "entity_id": "automation.suite_persiana_parar",
+                "last_changed": "2019-03-24T14:00:02.830048+00:00",
+                "last_updated": "2019-03-24T14:00:02.830048+00:00",
                 "state": "on"
             }
         },
         {
-            "last_seen": "2019-03-23T05:17:27.736847+00:00",
+            "last_seen": "2019-03-26T03:45:44.906922+00:00",
             "state": {
                 "attributes": {
-                    "friendly_name": "Varanda Persiana Todas Fechar",
-                    "id": "1553317945238",
-                    "last_triggered": null
+                    "friendly_name": "Varanda Persianas Todas Parar",
+                    "id": "1553318070847",
+                    "last_triggered": "2019-03-23T05:20:24.474095+00:00"
                 },
                 "context": {
-                    "id": "09beaa3d75fa429eacdf2c5fe90773b1",
+                    "id": "be230c152a8045f1a68a25d834f7b62a",
                     "user_id": null
                 },
-                "entity_id": "automation.varanda_persiana_todas_fechar",
-                "last_changed": "2019-03-23T05:17:19.663916+00:00",
-                "last_updated": "2019-03-23T05:17:19.663916+00:00",
+                "entity_id": "automation.varanda_persianas_todas_parar",
+                "last_changed": "2019-03-24T14:00:02.785261+00:00",
+                "last_updated": "2019-03-24T14:00:02.785261+00:00",
                 "state": "on"
             }
         },
         {
-            "last_seen": "2019-03-19T02:22:38.367293+00:00",
+            "last_seen": "2019-03-26T03:45:44.906922+00:00",
             "state": {
                 "attributes": {
-                    "friendly_name": "Suite TV",
+                    "friendly_name": "Pia",
                     "supported_features": 0
                 },
                 "context": {
-                    "id": "4ebca0aed4c546ff98c3a492a5711aaa",
+                    "id": "c24864179f1e46b0904aa344b4adbbd9",
                     "user_id": null
                 },
-                "entity_id": "light.suite_tv",
-                "last_changed": "2019-03-19T02:18:46.518871+00:00",
-                "last_updated": "2019-03-19T02:18:46.518871+00:00",
+                "entity_id": "light.pia",
+                "last_changed": "2019-03-24T13:59:59.504419+00:00",
+                "last_updated": "2019-03-24T13:59:59.504419+00:00",
                 "state": "off"
             }
         },
         {
-            "last_seen": "2019-03-19T02:18:30.390349+00:00",
+            "last_seen": "2019-03-26T03:45:44.906922+00:00",
             "state": {
                 "attributes": {
-                    "friendly_name": "suite_cama",
+                    "friendly_name": "Varanda Persianas Todas Abrir",
+                    "id": "1553317888613",
+                    "last_triggered": "2019-03-23T05:20:23.453800+00:00"
+                },
+                "context": {
+                    "id": "a28e10863f6041cda2ddadeff6452001",
+                    "user_id": null
+                },
+                "entity_id": "automation.varanda_persianas_todas_abrir",
+                "last_changed": "2019-03-24T14:00:02.837584+00:00",
+                "last_updated": "2019-03-24T14:00:02.837584+00:00",
+                "state": "on"
+            }
+        },
+        {
+            "last_seen": "2019-03-26T03:45:44.906922+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Suite Persiana Abrir",
+                    "id": "1553148207146",
+                    "last_triggered": "2019-03-22T02:38:41.644390+00:00"
+                },
+                "context": {
+                    "id": "f13d6fbbf6fc49e7a889914c6d6e8238",
+                    "user_id": null
+                },
+                "entity_id": "automation.suite_persiana_abrir",
+                "last_changed": "2019-03-24T14:00:02.813251+00:00",
+                "last_updated": "2019-03-24T14:00:02.813251+00:00",
+                "state": "on"
+            }
+        },
+        {
+            "last_seen": "2019-03-26T03:45:44.906922+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Criado Marcelo",
                     "supported_features": 0
                 },
                 "context": {
-                    "id": "27c98883f3e64854bc573d9d7b70eac1",
+                    "id": "5d3652b7e29b4106900de8bf7b73f2d4",
                     "user_id": null
                 },
-                "entity_id": "light.suite_cama",
-                "last_changed": "2019-03-19T02:16:12.335488+00:00",
-                "last_updated": "2019-03-19T02:16:12.335488+00:00",
+                "entity_id": "light.criado_marcelo",
+                "last_changed": "2019-03-24T13:59:59.483851+00:00",
+                "last_updated": "2019-03-24T13:59:59.483851+00:00",
                 "state": "off"
             }
         },
         {
-            "last_seen": "2019-03-19T02:03:59.182693+00:00",
+            "last_seen": "2019-03-26T03:45:44.906922+00:00",
             "state": {
                 "attributes": {
-                    "friendly_name": "Abajur Mesa RF",
+                    "friendly_name": "Cozinha",
+                    "supported_features": 0
+                },
+                "context": {
+                    "id": "319ea443b0c34698add04a91cb6a5082",
+                    "user_id": null
+                },
+                "entity_id": "light.cozinha",
+                "last_changed": "2019-03-24T13:59:59.497614+00:00",
+                "last_updated": "2019-03-24T13:59:59.497614+00:00",
+                "state": "off"
+            }
+        },
+        {
+            "last_seen": "2019-03-26T03:45:44.906922+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Corredor",
+                    "supported_features": 0
+                },
+                "context": {
+                    "id": "d5843f94dd004c63a9d2dbcc9d4a28b5",
+                    "user_id": null
+                },
+                "entity_id": "light.corredor",
+                "last_changed": "2019-03-24T13:59:59.490977+00:00",
+                "last_updated": "2019-03-24T13:59:59.490977+00:00",
+                "state": "off"
+            }
+        },
+        {
+            "last_seen": "2019-03-26T03:45:44.906922+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Geral",
+                    "supported_features": 0
+                },
+                "context": {
+                    "id": "0253479c3dea4c06921938d0a6c701c6",
+                    "user_id": null
+                },
+                "entity_id": "light.geral",
+                "last_changed": "2019-03-24T13:59:59.476089+00:00",
+                "last_updated": "2019-03-24T13:59:59.476089+00:00",
+                "state": "off"
+            }
+        },
+        {
+            "last_seen": "2019-03-26T03:45:44.906922+00:00",
+            "state": {
+                "attributes": {
+                    "editable": true,
+                    "friendly_name": "Marcelo",
+                    "id": "6eba4badf0f84f89b893fccfb2658e5a",
+                    "user_id": "050f489d0a7643d192ac114b2c57986b"
+                },
+                "context": {
+                    "id": "171340301b484aafa0af901aa7c5173f",
+                    "user_id": null
+                },
+                "entity_id": "person.marcelo",
+                "last_changed": "2019-03-24T13:59:59.368762+00:00",
+                "last_updated": "2019-03-24T14:00:02.705378+00:00",
+                "state": "unknown"
+            }
+        },
+        {
+            "last_seen": "2019-03-26T03:45:44.906922+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "TV",
+                    "supported_features": 0
+                },
+                "context": {
+                    "id": "6e4a5de54c804da68cf5fede1202328c",
+                    "user_id": null
+                },
+                "entity_id": "light.tv",
+                "last_changed": "2019-03-24T13:59:59.467564+00:00",
+                "last_updated": "2019-03-24T13:59:59.467564+00:00",
+                "state": "off"
+            }
+        },
+        {
+            "last_seen": "2019-03-26T03:45:44.906922+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Abajur Apaga 23:45",
+                    "id": "1552960646597",
+                    "last_triggered": "2019-03-23T02:45:00.080613+00:00"
+                },
+                "context": {
+                    "id": "15858c2fcbc145f79ec1a2ee828c776a",
+                    "user_id": null
+                },
+                "entity_id": "automation.abajur_apaga_23_45",
+                "last_changed": "2019-03-24T14:00:02.732986+00:00",
+                "last_updated": "2019-03-24T14:00:02.732986+00:00",
+                "state": "on"
+            }
+        },
+        {
+            "last_seen": "2019-03-26T03:45:44.906922+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Teste",
+                    "id": "1552962242125",
+                    "last_triggered": "2019-03-19T02:30:39.214702+00:00"
+                },
+                "context": {
+                    "id": "c7e485487d094ba3a1ff3c95fd29c95f",
+                    "user_id": null
+                },
+                "entity_id": "automation.teste",
+                "last_changed": "2019-03-24T13:59:59.373119+00:00",
+                "last_updated": "2019-03-24T13:59:59.373119+00:00",
+                "state": "off"
+            }
+        },
+        {
+            "last_seen": "2019-03-26T03:45:44.906922+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Criado Amanda",
+                    "supported_features": 0
+                },
+                "context": {
+                    "id": "00d0b0d7f8de42d69cd1882e13dfbeea",
+                    "user_id": null
+                },
+                "entity_id": "light.criado_amanda",
+                "last_changed": "2019-03-24T13:59:59.457094+00:00",
+                "last_updated": "2019-03-24T13:59:59.457094+00:00",
+                "state": "off"
+            }
+        },
+        {
+            "last_seen": "2019-03-26T03:45:44.906922+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Abajur Mesa RF Repeater",
                     "id": "1552959475962",
-                    "last_triggered": null
+                    "last_triggered": "2019-03-22T04:24:46.500570+00:00"
                 },
                 "context": {
-                    "id": "809d975b74824e87815d9e560858312b",
+                    "id": "e0e09ec830b2464aba71e93f35161262",
                     "user_id": null
                 },
-                "entity_id": "automation.abajur_mesa_rf",
-                "last_changed": "2019-03-19T02:00:33.072539+00:00",
-                "last_updated": "2019-03-19T02:00:33.072539+00:00",
+                "entity_id": "automation.abajur_mesa_rf_repeater",
+                "last_changed": "2019-03-24T14:00:02.794102+00:00",
+                "last_updated": "2019-03-24T14:00:02.794102+00:00",
+                "state": "on"
+            }
+        },
+        {
+            "last_seen": "2019-03-26T03:45:44.906922+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Suite Persiana Fechar",
+                    "id": "1553148444439",
+                    "last_triggered": "2019-03-24T14:00:04.876815+00:00"
+                },
+                "context": {
+                    "id": "9551c1ef5cf3452a8198531007c26a91",
+                    "user_id": null
+                },
+                "entity_id": "automation.suite_persiana_fechar",
+                "last_changed": "2019-03-24T14:00:02.821200+00:00",
+                "last_updated": "2019-03-24T14:00:04.877765+00:00",
+                "state": "on"
+            }
+        },
+        {
+            "last_seen": "2019-03-26T03:45:44.906922+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Abajur Por do Sol",
+                    "id": "1552960832798",
+                    "last_triggered": "2019-03-22T21:16:30.236658+00:00"
+                },
+                "context": {
+                    "id": "24bf5e1a699d45d6820ccce545077801",
+                    "user_id": null
+                },
+                "entity_id": "automation.abajur_por_do_sol",
+                "last_changed": "2019-03-24T14:00:02.741193+00:00",
+                "last_updated": "2019-03-24T14:00:02.741193+00:00",
                 "state": "on"
             }
         },
@@ -530,93 +390,6 @@
             }
         },
         {
-            "last_seen": "2019-03-23T05:14:30.013063+00:00",
-            "state": {
-                "attributes": {
-                    "friendly_name": "Varanda Persiana Fecha",
-                    "id": "1553317945238",
-                    "last_triggered": null
-                },
-                "context": {
-                    "id": "cbf66a0ab3ec46edb3153b4ebbee1239",
-                    "user_id": null
-                },
-                "entity_id": "automation.varanda_persiana_fecha",
-                "last_changed": "2019-03-23T05:12:24.497208+00:00",
-                "last_updated": "2019-03-23T05:12:24.497208+00:00",
-                "state": "on"
-            }
-        },
-        {
-            "last_seen": "2019-03-17T16:38:23.007731+00:00",
-            "state": {
-                "attributes": {
-                    "friendly_name": "Office light",
-                    "supported_features": 0
-                },
-                "context": {
-                    "id": "c51502d993be49619eba943f756f859d",
-                    "user_id": null
-                },
-                "entity_id": "light.office_light",
-                "last_changed": "2019-03-17T06:22:39.635328+00:00",
-                "last_updated": "2019-03-17T06:22:39.635328+00:00",
-                "state": "on"
-            }
-        },
-        {
-            "last_seen": "2019-03-19T02:03:59.182693+00:00",
-            "state": {
-                "attributes": {
-                    "friendly_name": "Abajur Apaga",
-                    "id": "1552960646597",
-                    "last_triggered": "2019-03-19T02:01:27.900306+00:00"
-                },
-                "context": {
-                    "id": "5630ab20207844878985f72a7ee721c1",
-                    "user_id": "050f489d0a7643d192ac114b2c57986b"
-                },
-                "entity_id": "automation.abajur_apaga",
-                "last_changed": "2019-03-19T02:00:33.064908+00:00",
-                "last_updated": "2019-03-19T02:01:27.901147+00:00",
-                "state": "on"
-            }
-        },
-        {
-            "last_seen": "2019-03-19T01:45:07.193498+00:00",
-            "state": {
-                "attributes": {
-                    "friendly_name": "Criado Amanda",
-                    "supported_features": 0
-                },
-                "context": {
-                    "id": "97b06edef40748fca3f9eea0de39f169",
-                    "user_id": null
-                },
-                "entity_id": "light.criado_amanda_2",
-                "last_changed": "2019-03-19T01:16:51.922267+00:00",
-                "last_updated": "2019-03-19T01:16:51.922267+00:00",
-                "state": "off"
-            }
-        },
-        {
-            "last_seen": "2019-03-19T02:22:38.367293+00:00",
-            "state": {
-                "attributes": {
-                    "friendly_name": "suite_criado_amanda",
-                    "supported_features": 0
-                },
-                "context": {
-                    "id": "b8a23db927ff4990ac08561babfd436e",
-                    "user_id": null
-                },
-                "entity_id": "light.suite_criado_amanda",
-                "last_changed": "2019-03-19T02:18:46.536728+00:00",
-                "last_updated": "2019-03-19T02:18:46.536728+00:00",
-                "state": "off"
-            }
-        },
-        {
             "last_seen": "2019-03-23T05:16:36.581778+00:00",
             "state": {
                 "attributes": {
@@ -635,20 +408,38 @@
             }
         },
         {
-            "last_seen": "2019-03-19T01:58:21.508460+00:00",
+            "last_seen": "2019-03-23T05:17:27.736847+00:00",
             "state": {
                 "attributes": {
-                    "friendly_name": "Abajur Noite",
-                    "id": "1552960646597",
+                    "friendly_name": "Varanda Persiana Todas Fechar",
+                    "id": "1553317945238",
                     "last_triggered": null
                 },
                 "context": {
-                    "id": "3d1589faacc2420a92715e9b22cd04fc",
+                    "id": "09beaa3d75fa429eacdf2c5fe90773b1",
                     "user_id": null
                 },
-                "entity_id": "automation.abajur_noite",
-                "last_changed": "2019-03-19T01:57:26.116240+00:00",
-                "last_updated": "2019-03-19T01:57:26.116240+00:00",
+                "entity_id": "automation.varanda_persiana_todas_fechar",
+                "last_changed": "2019-03-23T05:17:19.663916+00:00",
+                "last_updated": "2019-03-23T05:17:19.663916+00:00",
+                "state": "on"
+            }
+        },
+        {
+            "last_seen": "2019-03-23T05:14:30.013063+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Varanda Persiana Fecha",
+                    "id": "1553317945238",
+                    "last_triggered": null
+                },
+                "context": {
+                    "id": "cbf66a0ab3ec46edb3153b4ebbee1239",
+                    "user_id": null
+                },
+                "entity_id": "automation.varanda_persiana_fecha",
+                "last_changed": "2019-03-23T05:12:24.497208+00:00",
+                "last_updated": "2019-03-23T05:12:24.497208+00:00",
                 "state": "on"
             }
         }
