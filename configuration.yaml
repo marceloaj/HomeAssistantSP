@@ -1,47 +1,14 @@
-homeassistant:
-  # Name of the location where Home Assistant is running
-  name: Home
-  # Location required to calculate the time the sun rises and sets
-  latitude: -23.63
-  longitude: -46.6322
-  # Impacts weather/sunrise data (altitude above sea level in meters)
-  elevation: 0
-  # metric for Metric, imperial for Imperial
-  unit_system: metric
-  # Pick yours from here: http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-  time_zone: America/Sao_Paulo
-  # Customization file
-  customize: !include customize.yaml
 
 # Configure a default setup of Home Assistant (frontend, api, etc)
 default_config:
-
-# Show the introduction message on startup.
-#introduction:
 
 # Uncomment this if you are using SSL/TLS, running in Docker container, etc.
 # http:
 #   base_url: example.duckdns.org:8123
 
-# Sensors
-sensor:
-  # Weather prediction
-  - platform: yr
-    name: tempo
-  - platform: broadlink
-    host: 192.168.1.150
-    mac: 'B3:43:0D:B6:03:93'
-    monitored_conditions:
-      - temperature
-
-
 # Text to speech
 tts:
-  - platform: google
-
-group: !include groups.yaml
-automation: !include automations.yaml
-script: !include scripts.yaml
+  - platform: google_translate
 
 light:
   - platform: mqtt
@@ -50,48 +17,56 @@ light:
     state_topic: 'Suite/cama/status'
     command_topic: 'Suite/cama/switch'
     optimistic: false
+    retain: false
   - platform: mqtt
     name: 'Criado Amanda'
     unique_id: 'suite_criado_amanda'
     state_topic: 'Suite/amanda/status'
     command_topic: 'Suite/amanda/switch'
     optimistic: false
+    retain: false
   - platform: mqtt
     name: 'Criado Marcelo'
     unique_id: 'suite_criado_marcelo'
     state_topic: 'Suite/marcelo/status'
     command_topic: 'Suite/marcelo/switch'
     optimistic: false
+    retain: false
   - platform: mqtt
     name: 'TV'
     unique_id: 'suite_tv'
     state_topic: 'Suite/tv/status'
     command_topic: 'Suite/tv/switch'
     optimistic: false
+    retain: false
   - platform: mqtt
     name: 'Geral'
     unique_id: 'suite_geral'
     state_topic: 'Suite/fita/status'
     command_topic: 'Suite/fita/switch'
     optimistic: false
+    retain: false
   - platform: mqtt
     name: 'Corredor'
     unique_id: 'suite_corredor'
     state_topic: 'Suite/corredor/status'
     command_topic: 'Suite/corredor/switch'
     optimistic: false
+    retain: false
   - platform: mqtt
     name: 'Cozinha'
     unique_id: 'cozinha_nicho'
     state_topic: 'cozinha/nicho/status'
     command_topic: 'cozinha/nicho/switch'
     optimistic: false
+    retain: false
   - platform: mqtt
     name: 'Pia'
     unique_id: 'cozinha_pia'
     state_topic: 'cozinha/pia/status'
     command_topic: 'cozinha/pia/switch'
     optimistic: false
+    retain: false
 
 
 media_player:
@@ -102,13 +77,24 @@ media_player:
     zones:
       - zone: Zone2
         name: Varanda
-
-switch:
+        
+# Sensors
+sensor:
+  # Weather prediction
+  - platform: yr
+    name: tempo
   - platform: broadlink
-    host: 192.168.1.151
-    mac: 34:EA:34:BD:D3:56
-    type: sp2
-    friendly_name: 'Abajur Mesa'
+    host: 192.168.1.150
+    mac: 'B3:43:0D:B6:03:93'
+    monitored_conditions:
+      - temperature
+      
+switch:
+#  - platform: broadlink
+#    host: 192.168.1.151
+#    mac: 34:EA:34:BD:D3:56
+#    type: sp2
+#    friendly_name: 'Abajur Mesa'
 
   - platform: broadlink
     host: 192.168.1.150
@@ -125,7 +111,14 @@ switch:
         friendly_name: "Ar Frio"
         command_on:  'JgC8AXI4DisODQ8OEA4NKw4NDw4ODg4ODykPDw4pECkPDQ8qDysOKw0qDykQDg0PDisNDhAODQ4PDQ4PDg4PKQ8rDisNKg8NDw0PDg8NDg4PDw0ODw8ODg0ODw0QDA8OEA0ODRANDg8ODg4NDw4PDRAODQ4ODhAMECkODw4PDQ8ODRANDg8NAAPNcTkPKg4NEQwOEA4qDQ4PDQ8ODg8OKg8NDisOKg4PDioPKg8pDyoPKg4PDg4NKw8ODg0PDg4ODw0PDg4PDg0ODg8OEAwODhAMDw4PDg8MDw4PDQ8rDQ4ODg8NDyoQKQ8ODQ4QDQ8NDg8PDBAqDykODg8ODw0ODg4ODw0PDg4OEAwRDBANDg0PDhANDw0PKQ4PDykPDQ8NEA0PDQ4OEA4NDg4ODw0PDg4ODw0PDg4ODw0PDQ8PDg0QDBANDg4QDQ4ODg4ODw4ODg4ODhAMDw8NDhAMEA0ODw4ODg4PDRANDg4ODg4OEAwPDg4OEAwPDw0ODg4PDw4NDw8NDRANDg4PKg4qDw0QDg0ODw0QDQ8NDw0PDg4ODg8ODQ8PDQ8ODQ8ODw4OKg8rDQ8ODQ8rDQ4PKw4pEAANBQAAAAAAAAAAAAAAAA=='
         command_off: 'JgC8AXI5DSoPDg4OEA0OKw0ODw8ODQ4OESgODw8pDioQDQ4rDioOKw8pDioQDQ8NECkPDRAMEA4ODg8ODQ4PKRIpDCoPKw0PDg4ODg4PDg4ODg8NDw8NDg4ODg4PDg8NEAwQDA8ODw0PDQ8PDQ4PDw4NDg4ODg8ODykQDA8PDQ4PDQ8ODw0PAAPMcToNKw4ODg8ODQ8qDg4PDg8NDg8PKQ8ODioOKhAMDyoOLA0qDyoOKg8ODg4OKw8NDw0PDw0PDg8ODg0ODw0PDRANDw0PDQ8ODg4ODw4NDw4ODhAMDw4ODw0PDioOKw8NDg4PDw4NDw0ODw4qDisODg4ODw0PDg4PDQ4QDQ4ODw0QDQ4PDw0PDA8OEAwPKg4ODisPDQ4ODw8ODQ4PDg4ODg4PDQ4PDhAMEA0PDA8ODhAODA8ODw0PDQ8ODg4PDQ8NDw8ODw0NEQwPDQ8NDw4ODhAODQ0PDg4OEAwQDg4NDw0PDhAMDg4PDw0ODw4PDBAODg0QDA8ODg4PDQ8ODg4OLA0qDw0PDw8MDw0QDQ4ODg4QDQ8NDg8ODhAMDw0QDA8ODg8ODQ8rDQ4PDw4pDw4OKg8rDQANBQAAAAAAAAAAAAAAAA=='
-
+      varanda_persiana_abrir:
+        friendly_name: "Abrir Persianas"
+        command_on:  '6QGEAxcMFw0XDAwYCxgXDQsZDBcXDBcNCxgMGAwYDBcMGBcMGAwLGBcNFwwMGBcMFw4LFxgMCxgMGAsYDBgLGQsYDBgMFxcNDBcMGAsYGHKdMgwXDRcXDhUNFwwMGAsYFw0LGAwYFw4WDQoZCxgMGQoYDBgXDBgMCxgXDRcMDBgXDRYNCxkWDQsaChgMGAsYDRcLGA0XCxgXDQsYDBgLGBhAnDIMGQoZGAsXDBcNCxgMGBcOChgLGRcMFw4KGAsZCxgMGAsaFQ0XDAwYFw0XDAwXFw0XDQwXFw0LGAsZCxgMGAsYDBgLGAwYGAsNFwsZCxgXcp0yDBgLGRcMFwwYDA0XCxgXDQsYDRcXDBcNCxgMGQoYDBgLGBgNFwsMGBcNFwwLGhYMFwwMGBgNChgMGAsZCxgLGAwYCxgMGBcMDBgLGQsYF0CeMQsZCxoVDRcMFw0LGAwYFwwMGAsYFw0XDQsYCxgMGAsYDBgXDRcMCxkYCxcNCxoVDhYMCxkYCwsaChgMGAsYDBgLGAwYDBgXDAwYCxgMGBdynTILGAwYGA0WDBcNDBcMGBgLDBgLGBcNGAsMGAsZCxgLGQ0WFw0XDAsZFwwXDQsYFw4WDAsaFgwMGAwXDBgLGAwYDRYMGAsaFgwLGQsYDBgYP50yCxgMGBcMGQsXDAwYCxkXDAsYDBgXDRcNChgMGQsYCxgMGBcMGAwLGBcNFwwNFwkECQ4XDQsYFw0LGAwYCxgMGQoZDBcMGAsYGAwLGAwYCxgYip0yCxgMGRYMGAwXDgsXCxgYDAwYCxgXDRcNCxgLGQwXDBcMGBcNFwwMGBgNFQ0LGBcOFgwMGBcMDRcMFwwYCxgNFwwYCxgNFxcNFwwXDBgMC0ydMgwZChkWDBgNFg0MFwsZFwwMGAsYFw0XDAwYDBcMGAsZCxgXDhYNCxgXDBcNCxgXDRcMDBgYDAsYDBgLGAsZCxgMGAsZCxkWDBcOFg0XDAt+nTILGAwZFgwXDhYMDBoJGBgMCxoKGBgMFwwLGQwXDBkMFgwYFwwYDAsZFwwXDQsZFg0XDAsZFwwLGQsYDRcLGAwYDBgLGAwYFw0YCxcNFg0MTJwyDBcMGBgMFwwXDgoYCxkXDAwYCxgXDRgMCxgLGQsYCxgMGBcNFw0LGBcMGAwNFhcNFwwMGBcMDBgMFwwYDRcLGAwZChgMGBcNFwwXDBgMCwAF3AAAAAA='
+        command_off: '6QGEAwgbFg4UDxUOCRsJGhUPCRoKGhUOFQ8JGwkZChoKGQoaFg4VDwkZGAwWDQoaFg0WDgoZFw0KGQsZChkLGgkZCxkWDQsZFg4KGRYNCxkWcp0yCxkKGhYNFwwYDAoZCxkWDQsZCxkWDRYNCxkLGQoZCxkLGBgMFg0MGBYNFw0KGRcOFQ8JGRYNCxkLGAsZCxoJGQsYGA0KGBcNDBkVDQsZFkKbMgsZCxgXDRcNFw0KGQoZFw0LGAsZFg0XDQsYDRcLGQoZCxgXDRcNChkXDBcOChgXDRcNChkXDAsaChkKGQsZCxgMGRYMDBgYCwsZFwwLGhdxnTMKGAwYFw0WDRgMChkLGBcNDBcMGBcNFg0LGQsZChgMGQoZFg0XDAwYFwwXDQsYFw0XDAsZFwwMGAsYDRcLGQsYCxkWDQsZFw0KGRcMCxkXQZwxDBgLGBcNFw4VDQsZChkXDAsZCxgXDRgLCxkMFwsZCxgMGBcMFw0MFxcNFwwLGRcMFw4KGBcNCxgLGQsYCxkMFw0XFwwMGBcMDBgXDAwYF3GdMgwYCxgXDRcNFg0MFwwYFw0LGQoZFwwZCgwYDBgLGQsYCxgXDRcNCxgYCxcNCxgYDBcNCxgXDAwYCxoKGAwYCxkKGRcMDBkWDAwZFg0LGBdBnDILGAwYFw0WDRcOChgLGBkLCxgMGBcNFg0LGQsYCxkLGQsYFw0WDQwXFw0XDAwYGAsYDAsYFw4KGQsYDBgLGgoYCxkWDQsZFg0LGBcPCRgXc50xDRcLGRcMFw0WDQsYDBgXDQsYCxkWDhYNCxgMFwwYCxoKGBgMGAwKGBcNFw4KGBcOFQ0LGRYNCxkLGAsYDBgLGQsYFw0LGBcNCxkWDgoYF0CdMgsYDBgXDBcNGAsMGAsYFw0LGAwZFg0YCwsaChgLGQsYCxkXDBcMDRgWDRYNCxkXDRYOChkWDA0XCxoKGAsZCxgMGBcMCxkXDAwYFwwMGBdxnTILGQwXFw0XDBcNCxkLGBcMDBgNFhcNFwwMGAsZCxgLGQwXGAwXDAwYFwwXDQsZFg0XDA0YFgwNGAoYDBgMFwwYCxkYCwsZFwwMGBcMDBkXP50yDBcMGBcOFwsXDAsZCxkWDQsYDBgXDRYNDBkKGAsZCxgMGBcMFw0LGBcNFwwLGRgLGA0KGBcNCxgNFwsaChgLGQsYFw4KGBcNCxgXDQsYFwAF3AAAAAA='
+      varanda_persiana_fechar:
+        friendly_name: "Fechar Persianas"
+        command_on:  '6QAyAwsXDBgXDRcMFw0KGQsZFg8JGQoaFRAQXAYeBR8FHgsEBBISEgcdERETEAcdExESEgYcExEHHAgcBxsJGwgcCBsJGhUPFA8JGwkaFQ8VQpo2CBoJGxUOFQ8VDwgaChoVDgoaChsUDxQOChoKGQoaChsJGRYOFQ4KGhcMFg0LGRcMFg4KGRYOChkLGQwXCxsIGwkZCxkWDhYNCxgLGhUNFnScMg0XDBcXDRYPFQ0KGgoZFg4KGQsYGA0WDQsYDBgKGQsZCxgXDRcMDBgWDhYNCxkXDBYNCxkWDQ0XCxgLGQsYDRcLGQsYFw0XDAsZCxkWDRZBnDMLGQoaFQ0XDRYNCxkMGBYNDBcNGBYNFg4KGAwYCxgNFwsYFw0XDQoZFw0WDQsYFw0XDAwYFw0KGQsZCxgMGAwXCxkLGRYOFwsLGQsaFQ0YcpwyCxkLGBcNGAsYDAsYDRcXDAwZChkWDRgLDBkKGQsYCxgNGBYNFg0LGRcMFw0LGBgMFg0LGRcMCxkMFwwZChkLGAsYDRcXDRcMDBkKGBgMF0GbNAoZChoWDBgMGAwKGQsYFw0LGQoZFw0WDQwXDBgLGQsYDBgXDBgMCxgXDRcOChgXDBcNCxgXDQsYCxkMFwwYCxkLGAsZFwwXDQsYDRgWDBeLnTILGAwYFwwXDRcNCxgLGRYOChkLGBcNFwwLGQsYDBgLGgoZFwwYCwsaFgwXDQwXFw0XDAwYFw4LFwsZDBgKGQsYDBgLGRcMFw0YCxcMDRcNSp0yDBgMGBYPFQ0WDQwYDBcXDQsaCRkXDRYNCxgMGAsYCxkLGRcMFw0LGhUOFgwLGRcMFw0LGBcNCxkLGQoZCxgNFwsYDBgXDhUNFwwXDQsYDXydMgwYCxkWDRcOFwsLGQsYFw0LGQoZFwwXDgoYDBkMFgwZChkXDBcOChgZDBYMCxkXDhYNChkWDgoYDBgNFwsYDBkKGQsYFwwXDRcNFwwLGQtMnTILGAsaFg0WDRgMCxgLGRYNDBgLGBgMFwwMGAsYDBgLGQsYFw0WDQsZFg0XDQsZFg0XDAsZGAwLGAwXDBgLGQsYCxkMFxcNFwwXDRcOChgLAAXcCxgLGhYN'
+        command_off: '6QGEAwgbFg4UDxUOCRsJGhUPCRoKGhUOFQ8JGwkZChoKGQoaFg4VDwkZGAwWDQoaFg0WDgoZFw0KGQsZChkLGgkZCxkWDQsZFg4KGRYNCxkWcp0yCxkKGhYNFwwYDAoZCxkWDQsZCxkWDRYNCxkLGQoZCxkLGBgMFg0MGBYNFw0KGRcOFQ8JGRYNCxkLGAsZCxoJGQsYGA0KGBcNDBkVDQsZFkKbMgsZCxgXDRcNFw0KGQoZFw0LGAsZFg0XDQsYDRcLGQoZCxgXDRcNChkXDBcOChgXDRcNChkXDAsaChkKGQsZCxgMGRYMDBgYCwsZFwwLGhdxnTMKGAwYFw0WDRgMChkLGBcNDBcMGBcNFg0LGQsZChgMGQoZFg0XDAwYFwwXDQsYFw0XDAsZFwwMGAsYDRcLGQsYCxkWDQsZFw0KGRcMCxkXQZwxDBgLGBcNFw4VDQsZChkXDAsZCxgXDRgLCxkMFwsZCxgMGBcMFw0MFxcNFwwLGRcMFw4KGBcNCxgLGQsYCxkMFw0XFwwMGBcMDBgXDAwYF3GdMgwYCxgXDRcNFg0MFwwYFw0LGQoZFwwZCgwYDBgLGQsYCxgXDRcNCxgYCxcNCxgYDBcNCxgXDAwYCxoKGAwYCxkKGRcMDBkWDAwZFg0LGBdBnDILGAwYFw0WDRcOChgLGBkLCxgMGBcNFg0LGQsYCxkLGQsYFw0WDQwXFw0XDAwYGAsYDAsYFw4KGQsYDBgLGgoYCxkWDQsZFg0LGBcPCRgXc50xDRcLGRcMFw0WDQsYDBgXDQsYCxkWDhYNCxgMFwwYCxoKGBgMGAwKGBcNFw4KGBcOFQ0LGRYNCxkLGAsYDBgLGQsYFw0LGBcNCxkWDgoYF0CdMgsYDBgXDBcNGAsMGAsYFw0LGAwZFg0YCwsaChgLGQsYCxkXDBcMDRgWDRYNCxkXDRYOChkWDA0XCxoKGAsZCxgMGBcMCxkXDAwYFwwMGBdxnTILGQwXFw0XDBcNCxkLGBcMDBgNFhcNFwwMGAsZCxgLGQwXGAwXDAwYFwwXDQsZFg0XDA0YFgwNGAoYDBgMFwwYCxkYCwsZFwwMGBcMDBkXP50yDBcMGBcOFwsXDAsZCxkWDQsYDBgXDRYNDBkKGAsZCxgMGBcMFw0LGBcNFwwLGRgLGA0KGBcNCxgNFwsaChgLGQsYFw4KGBcNCxgXDQsYFwAF3AAAAAA='
 
 cover:
   - platform: template
@@ -248,3 +241,14 @@ binary_sensor:
     device_class: door
     off_delay: 10
 
+  - platform: mqtt
+    name: "Porta Miguel"
+    state_topic: "rf-repeater"
+    payload_on: "12128266"
+    payload_off: "12128270"
+    device_class: door
+
+
+group: !include groups.yaml
+automation: !include automations.yaml
+script: !include scripts.yaml
