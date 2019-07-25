@@ -1,0 +1,304 @@
+{
+    "data": {
+        "config": {
+            "title": "Home Assistant",
+            "views": [
+                {
+                    "badges": [],
+                    "cards": [
+                        {
+                            "entity": "weather.casasp",
+                            "type": "weather-forecast"
+                        },
+                        {
+                            "entities": [
+                                {
+                                    "entity": "sensor.broadlink_sensor_temperature"
+                                },
+                                {
+                                    "entity": "switch.sala_ar_frio",
+                                    "icon": "mdi:air-conditioner"
+                                }
+                            ],
+                            "show_header_toggle": false,
+                            "title": "Ar Condicionado",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                {
+                                    "entity": "light.smart_bc5a9b",
+                                    "icon": "mdi:lamp",
+                                    "name": "Abajur Buffet"
+                                },
+                                {
+                                    "entity": "light.smart_97efb0",
+                                    "icon": "mdi:floor-lamp",
+                                    "name": "Abajur Mesa"
+                                },
+                                {
+                                    "entity": "light.smart_92e1d0",
+                                    "icon": "mdi:spotlight",
+                                    "name": "Home theater"
+                                },
+                                {
+                                    "entity": "light.smart_f5c035",
+                                    "icon": "mdi:spotlight",
+                                    "name": "Canto"
+                                },
+                                {
+                                    "entity": "light.smart_58ef9b",
+                                    "icon": "mdi:ceiling-light",
+                                    "name": "Mesa"
+                                }
+                            ],
+                            "title": "Luzes",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                {
+                                    "entity": "switch.tv_lg",
+                                    "icon": "mdi:television",
+                                    "name": "TV On/Off"
+                                }
+                            ],
+                            "show_header_toggle": false,
+                            "title": "TV",
+                            "type": "entities"
+                        },
+                        {
+                            "entity": "media_player.denon_avr2313",
+                            "type": "media-control"
+                        },
+                        {
+                            "entity": "media_player.varanda",
+                            "type": "media-control"
+                        }
+                    ],
+                    "panel": false,
+                    "path": "sala_view",
+                    "title": "Sala"
+                },
+                {
+                    "badges": [],
+                    "cards": [
+                        {
+                            "entities": [
+                                {
+                                    "entity": "light.cozinha"
+                                },
+                                {
+                                    "entity": "light.pia"
+                                }
+                            ],
+                            "title": "Luzes",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                {
+                                    "entity": "binary_sensor.porta_lavanderia"
+                                }
+                            ],
+                            "type": "entities"
+                        }
+                    ],
+                    "title": "Cozinha"
+                },
+                {
+                    "badges": [],
+                    "cards": [
+                        {
+                            "entity": "media_player.varanda",
+                            "type": "media-control"
+                        },
+                        {
+                            "entities": [
+                                {
+                                    "entity": "cover.varanda_persianas"
+                                },
+                                {
+                                    "entity": "cover.varanda_persiana_1"
+                                },
+                                {
+                                    "entity": "cover.varanda_persiana_2"
+                                },
+                                {
+                                    "entity": "cover.varanda_persiana_3"
+                                },
+                                {
+                                    "entity": "cover.varanda_persiana_4"
+                                },
+                                {
+                                    "entity": "cover.varanda_persiana_5"
+                                }
+                            ],
+                            "show_header_toggle": false,
+                            "title": "Persianas",
+                            "type": "entities"
+                        },
+                        {
+                            "entity": "switch.varanda_persiana_abrir",
+                            "hold_action": {
+                                "action": "more-info"
+                            },
+                            "icon": "mdi:arrow-up-bold-circle",
+                            "name": "Abrir todas",
+                            "show_icon": true,
+                            "show_name": true,
+                            "tap_action": {
+                                "action": "toggle"
+                            },
+                            "type": "entity-button"
+                        },
+                        {
+                            "entities": [
+                                {
+                                    "entity": "switch.varanda_persiana_abrir",
+                                    "icon": "mdi:window-closed",
+                                    "name": "Abrir Fechar"
+                                },
+                                {
+                                    "entity": "switch.varanda_persiana_fechar",
+                                    "icon": "mdi:window-closed",
+                                    "name": "Fechar todas"
+                                }
+                            ],
+                            "show_header_toggle": false,
+                            "title": "Persianas",
+                            "type": "entities"
+                        },
+                        {
+                            "entity": "switch.varanda_persiana_fechar",
+                            "hold_action": {
+                                "action": "more-info"
+                            },
+                            "icon": "mdi:arrow-down-bold-circle",
+                            "name": "Fechar todas",
+                            "show_icon": true,
+                            "show_name": true,
+                            "tap_action": {
+                                "action": "toggle"
+                            },
+                            "type": "entity-button"
+                        }
+                    ],
+                    "path": "varanda_view",
+                    "title": "Varanda"
+                },
+                {
+                    "badges": [],
+                    "cards": [
+                        {
+                            "entities": [
+                                {
+                                    "entity": "light.tv"
+                                },
+                                {
+                                    "entity": "light.cama"
+                                },
+                                {
+                                    "entity": "light.criado_amanda"
+                                },
+                                {
+                                    "entity": "light.criado_marcelo"
+                                },
+                                {
+                                    "entity": "light.geral"
+                                },
+                                {
+                                    "entity": "light.corredor"
+                                }
+                            ],
+                            "title": "Luz",
+                            "type": "entities"
+                        },
+                        {
+                            "entity": "media_player.suite_master",
+                            "type": "media-control"
+                        },
+                        {
+                            "entity": "media_player.apple_tv_suite_master_4",
+                            "type": "media-control"
+                        }
+                    ],
+                    "path": "suite_view",
+                    "title": "Suite"
+                },
+                {
+                    "badges": [],
+                    "cards": [
+                        {
+                            "entity": "binary_sensor.porta_miguel",
+                            "hold_action": {
+                                "action": "none"
+                            },
+                            "tap_action": {
+                                "action": "more-info"
+                            },
+                            "type": "entity-button"
+                        }
+                    ],
+                    "title": "Miguel"
+                },
+                {
+                    "badges": [],
+                    "cards": [
+                        {
+                            "entities": [
+                                {
+                                    "entity": "light.smart_92cfe0",
+                                    "name": "Suite Visita"
+                                }
+                            ],
+                            "title": "Luzes",
+                            "type": "entities"
+                        }
+                    ],
+                    "title": "Visita"
+                },
+                {
+                    "badges": [
+                        "person.marcelo",
+                        "sensor.broadlink_sensor_temperature",
+                        "sensor.tempo_symbol",
+                        "sun.sun"
+                    ],
+                    "cards": [
+                        {
+                            "entities": [
+                                {
+                                    "entity": "group.all_automations"
+                                },
+                                {
+                                    "entity": "automation.abajur_apaga_23_45"
+                                },
+                                {
+                                    "entity": "automation.abajur_por_do_sol"
+                                },
+                                {
+                                    "entity": "automation.suite_persiana_abrir"
+                                },
+                                {
+                                    "entity": "automation.suite_persiana_fechar"
+                                },
+                                {
+                                    "entity": "automation.suite_persiana_parar"
+                                }
+                            ],
+                            "show_header_toggle": false,
+                            "theme": "default",
+                            "title": "Automa\u00e7\u00e3o",
+                            "type": "entities"
+                        }
+                    ],
+                    "path": "default_view",
+                    "title": "Casa"
+                }
+            ]
+        }
+    },
+    "key": "lovelace",
+    "version": 1
+}
